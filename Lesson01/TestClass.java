@@ -12,8 +12,8 @@ import java.util.logging.SimpleFormatter;
 import java.util.logging.Logger;
 import java.util.logging.Level;
 
-
 public class TestClass {
+
    public static void main(String[] args) throws IOException {
 
     // ensure directory has been created
