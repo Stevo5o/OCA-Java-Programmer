@@ -5,3 +5,4 @@
 - Interpret code
 
 ##Lesson 02
+- Basic if
