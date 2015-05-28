@@ -14,6 +14,10 @@ public class App {
 
   public static void main(String[] args) {
 
+    for (int i = 0;i < args.length; i++) {
+      System.out.println(args[i]);
+    }
+
     Person person1 = new Person();
     person1.name = "Brendan Behan";
     person1.age = 41;
