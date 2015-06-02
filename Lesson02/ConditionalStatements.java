@@ -2,26 +2,21 @@ public class ConditionalStatements {
 
   public static void main(String[] args) {
 
-    ClamBait bait = ClamBait.SALTED;
+    String olive = "Kalamata";
 
-    switch (bait)
-    {
+    switch (olive.toLowerCase()) {
+      case "kalamata":
+        System.out.println("It's Greek");
+        break;
+      case "picholine":
+        System.out.println("It's French");
+        break;
+      case "ligurio":
+        System.out.println("It's Italian");
+        break;
       default:
-          System.out.println("No bait");
-          break;
-        case FRESH:
-          System.out.println("Fresh clams");
-          break;
-        case SALTED:
-          System.out.println("Salted clams");
-          break;
-        case ARTIFICAL:
-          System.out.println("Artifical clams");
-          break;
+        System.out.println("I do not know, location");
+        break;
     }
   }
-}
-enum ClamBait
-{
-  FRESH, SALTED, ARTIFICAL
 }
