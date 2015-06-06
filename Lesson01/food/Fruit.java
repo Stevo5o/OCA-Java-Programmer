@@ -20,4 +20,15 @@ public abstract class Fruit {
   public boolean isSeasonal() {
     return seasonal;
   }
+  
+  @Override
+  public String toString() {
+    StringBuilder builder = new StringBuilder();
+    builder.append("Color: " + apple.getColor());
+    
+    String result = seasonal ? "Yes" : "No";
+    builder.append("\nSeasonal: " + result);
+    
+    return builder.toString();
+  }
 }
