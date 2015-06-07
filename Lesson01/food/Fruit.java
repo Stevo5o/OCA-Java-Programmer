@@ -24,7 +24,7 @@ public abstract class Fruit {
   @Override
   public String toString() {
     StringBuilder builder = new StringBuilder();
-    builder.append("Color: " + apple.getColor());
+    builder.append("Color: " + color.toString());
     
     String result = seasonal ? "Yes" : "No";
     builder.append("\nSeasonal: " + result);

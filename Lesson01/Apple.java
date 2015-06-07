@@ -2,26 +2,26 @@ import food.Fruit;
 import java.awt.Color;
 
 class Apple extends Fruit {
-
-  public static void main(String args[]) {
-    private AppleVariety appleVariety;
+  private String appleVariety = "Red Delicious";
+  
+  public static void main(String args[]) {   
     
-    @Override
-    public string toString() {
-      String description = super.toString();
-      description += "\nApple variety: " + appleVAriety;
-      return descripton;
-    }
-    
-    Fruit apple = new Apple(Color.RED, true);
+    Fruit apple = new Apple(Color.RED, true);    
+    System.out.println(apple);
     apple.prepare();
-    System.out.println("Color: " + apple.getColor());
   }
 
   public Apple(Color color, boolean seasonal) {
     super(color, seasonal); 
   }
 
+  @Override
+  public String toString() {
+    String description = super.toString();
+    description += "\nApple variety: " + appleVariety;
+    return description;
+  }
+      
   @Override
   public void prepare() {
     System.out.println("Cut the Apple");
