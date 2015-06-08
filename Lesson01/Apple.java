@@ -4,8 +4,7 @@ import java.awt.Color;
 class Apple extends Fruit {
   private String appleVariety = "Red Delicious";
   
-  public static void main(String args[]) {   
-    
+  public static void main(String args[]) {       
     Fruit apple = new Apple(Color.RED, true);    
     System.out.println(apple);
     apple.prepare();
