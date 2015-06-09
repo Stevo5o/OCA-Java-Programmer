@@ -3,7 +3,9 @@
 - Packages
 - Compiling
 - Interpret code
+- enum, for in
+- abstract
 
 ##Lesson 02
 - Basic if
-- Switch enum, string
+- Switch, String, enum
