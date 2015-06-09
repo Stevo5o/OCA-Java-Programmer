@@ -1,3 +1,11 @@
 public enum CoffeeSize { 
-	BIG, HUGE, OVERWHELMING
+	BIG(8), HUGE(10), OVERWHELMING(16);
+	CoffeeSize(int ounces) {
+		this.ounces = ounces;
+	}
+	
+	private int ounces;
+	public int getOunces() {
+		return ounces;
+	}
 } 
