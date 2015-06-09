@@ -1,0 +1,3 @@
+class Coffee {
+	CoffeeSize size;
+}
