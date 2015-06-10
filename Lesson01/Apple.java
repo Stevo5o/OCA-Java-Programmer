@@ -2,14 +2,12 @@ import food.Fruit;
 import java.awt.Color;
 
 class Apple extends Fruit {
-  private static AppleVariety appleVariety;
- 
+  private static AppleVariety appleVariety; 
   
   public static void main(String args[]) {       
     Fruit apple = new Apple(Color.RED, true);   
-    appleVariety = AppleVariety.D;
-        
-    System.out.println(apple);
+    appleVariety = AppleVariety.C;        
+    apple.toString();
     apple.prepare();
   }
 
@@ -31,7 +29,7 @@ class Apple extends Fruit {
       System.out.println("B is pink. ");
       break;
       case C:
-      System.out.println("C is red.");
+      System.out.println(description + " C is red.");
       break;     
       default:
       System.out.println("Don't know color");     
