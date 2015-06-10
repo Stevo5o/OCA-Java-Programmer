@@ -7,7 +7,7 @@ class Apple extends Fruit {
   
   public static void main(String args[]) {       
     Fruit apple = new Apple(Color.RED, true);   
-    appleVariety = AppleVariety.C;
+    appleVariety = AppleVariety.D;
         
     System.out.println(apple);
     apple.prepare();
@@ -23,6 +23,19 @@ class Apple extends Fruit {
     if(appleVariety == appleVariety.C) {
       description += "\nApple variety: " + appleVariety + " - Red Delicious";
     }    
+    switch (appleVariety) {
+      case A:
+      System.out.println("A is yellow. ");
+      break;
+      case B:
+      System.out.println("B is pink. ");
+      break;
+      case C:
+      System.out.println("C is red.");
+      break;     
+      default:
+      System.out.println("Don't know color");     
+    }
     
     return description;
   }  
