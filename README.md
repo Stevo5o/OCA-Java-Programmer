@@ -9,3 +9,6 @@
 ##Lesson 02
 - Basic if
 - Switch, String, enum
+- Encapsulation
+- Inheritance
+- Ploymorphism
