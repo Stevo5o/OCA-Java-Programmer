@@ -23,16 +23,16 @@ class Apple extends Fruit {
     }    
     switch (appleVariety) {
       case A:
-      System.out.println("A is yellow. ");
+        System.out.println("A is yellow. ");
       break;
       case B:
-      System.out.println("B is pink. ");
+        System.out.println("B is pink. ");
       break;
       case C:
-      System.out.println(description + " C is red.");
+        System.out.println(description + " C is red.");
       break;     
       default:
-      System.out.println("Don't know color");     
+        System.out.println("Don't know color");     
     }
     
     return description;
