@@ -1,21 +1,28 @@
-public class Animal {
-	public void eat() {
-		System.out.println("Generic Animal Eating Generically");
-	}
- }
-public class Lizard extends Animal {
-	private Terrarium myTerrarium = new Terrarium();
-	public void clean(Material sponge) {
-		myTerrarium.clean(sponge); // delegate clean behaviour to the
-							       // Terrarium object			
-	}
-	public void eat() {
-		System.out.println("Lizard eating crikets, grasshoppers, " 
-			+ "and worms");
+class Animal { 
+	public static void main(String[] args) {
+		UseAnimals ua = new UseAnimals();
+		Animal animalObj = new Animal();
+		Lizard lizardObj = new Lizard();
+		ua.doStuff(animalObj);
+		ua.doStuff(lizardObj);
+		Animal animalRefToLizard = new Lizard();
+		ua.doStuff(animalRefToLizard);		
 	}
 }
-public class Halter {
-	public void clean(Material aSponge) {
-		// do the clean work here
+
+class Lizard extends Animal { }
+
+class UseAnimals {
+	public void doStuff(Animal a) {
+		System.out.println("In the Animal version");
+	}	
+	public void doStuff(Lizard l) {
+		System.out.println("In the Lizard version");	
 	}
 }
+
+/* Output:
+ * In the Animal version
+ * In the Lizard version
+ * In the Animal version
+ */
