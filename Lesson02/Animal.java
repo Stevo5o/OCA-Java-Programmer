@@ -6,8 +6,11 @@ class Animal {
 		ua.doStuff(animalObj);
 		ua.doStuff(lizardObj);
 		Animal animalRefToLizard = new Lizard();
-		ua.doStuff(animalRefToLizard);		
+		ua.doStuff(animalRefToLizard);	
 	}
+	public void eat() {
+			System.out.println("Generic Animal Eating Generically");
+	}	
 }
 
 class Lizard extends Animal { }
