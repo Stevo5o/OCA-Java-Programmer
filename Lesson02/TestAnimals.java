@@ -1,9 +1,8 @@
 public class TestAnimals {
-	public static void main(String[] args) {
-		Animal a = new Animal();
-		Animal b = new Lizard(); // Animal ref, but a Lizard object
-		a.eat(); // runs the Animal version of eat()
-		b.eat(); // runs the Lizard version of eat()
+	public static void main(String[] args) {		
+		Lizard l = new Lizard(); // Animal ref, but a Lizard object
+		l.eat(); // not legal didn't inherit eat()
+				 // not an override of Animal’s eat() method	
 	}	
 }
 class Animal {
@@ -11,20 +10,5 @@ class Animal {
 		System.out.println("Generic Animal Eating Generically");
 	}
  }
-class Lizard extends Animal {
-	// private Terrarium myTerrarium = new Terrarium();
-	// public void clean(Material sponge) {
-	// 	myTerrarium.clean(sponge); // delegate clean behaviour to the
-	// 						       // Terrarium object			
-	// }
-	public void eat() {
-		System.out.println("Lizard eating crikets, grasshoppers, " 
-			+ "and worms");
-	}	
-	public void hunt() { }
-}
-// class Terrarium {
-// 	public void clean(Material aSponge) {
-// 		// do the clean work here
-// 	}
-// }
+class Lizard extends Animal { }
+
