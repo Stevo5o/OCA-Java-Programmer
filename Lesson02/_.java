@@ -1,5 +1,5 @@
 public class _ {
-	int _ = 3; // will not compile
+	int _ = 3; // will compile
 	char $ = '$';
 	String string = "l";
 	int 3_ = 3; // will not compile
