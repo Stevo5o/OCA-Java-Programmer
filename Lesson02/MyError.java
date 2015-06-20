@@ -5,4 +5,4 @@ public class MyError {
 	}
 }
 
-// Output I've an error
+// Output: I've made an error
