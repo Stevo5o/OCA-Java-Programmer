@@ -1,20 +1,7 @@
 class DogTest {
 	public static void main(String[] args) {
-		Animal animal = new Animal();
-		Dog d = (Dog) animal; // compliles but run fail
-		String s = (String) animal; // animal can't EVER be a String
+		Dog d = new Dog();
+		Animal a1 = d; // upcast ok with no explicit cast	
+		Animal a2 = (Animal) d; // upcast ok with an explicit cast		
 	}
 }
-
-/* Exception in thread "main" java.lang.ClassCastException: 
- * Animal cannot be cast to Dog
- * at DogTest.main(DogTest.java:4)
- */
- 
-/* Lesson02 master* $ javac DogTest.java
- * DogTest.java:5: error: inconvertible types
- * String s = (String) animal; // animal can't EVER be a String                                    ^
- * required: String
- * found:    Animal
- * 1 error
- */
