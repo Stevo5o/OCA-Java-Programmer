@@ -13,7 +13,7 @@
 ## Resources
 PowerShell
 
-vscode
+VSCode
 
 
 
