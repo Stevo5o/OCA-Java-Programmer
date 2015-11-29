@@ -52,3 +52,32 @@ public class Ballon
                        + my2ndStringObject.color + ")");
   }
 }
+
+/*
+thewhitefox@thewhitefox:~/OCA-Java-Programmer/Lesson03$ java Ballon
+	Ballon@6ca6fed5 (Red)
+
+...from method void cutTheRope(Ballon myStringObject):
+
+	Ballon@de35b38 (Yellow)
+
+...from the method main:
+
+	Ballon@6ca6fed5 (Red)
+
+-----------------------------------
+
+	Ballon@4979c0a7 (Green)
+
+...from method void followTheRope(Ballon my2ndStringObject):
+
+	Ballon@de35b38 (White)
+
+...from method main:
+
+	Ballon@de35b38 (White)
+
+	Ballon@4979c0a7 (White)
+*/
+
+
