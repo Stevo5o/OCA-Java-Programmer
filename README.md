@@ -5,9 +5,9 @@
 | Lesson 01      | Lesson 02       | Lesson 3       |
 | :------------  | :------------   | :------------  |
 | Packages       | Basic if        | Debugging      |
-| Compiling      | Switch, String  |                |
-| Interpret code | Encapsulation   |                |
-| enum, for in   | Inheritance     |                |
+| Compiling      | Switch, String  | Pass by value  |
+| Interpret code | Encapsulation   | Recursion      |
+| enum, for in   | Inheritance     | Boolean        |
 | abstract       | Ploymorphism    |                |
 
 ## Resources
@@ -22,6 +22,7 @@
 ### Books
 [free-programming-books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
 
+Kathy Sierra, Bert Bates - OCA OCP Java SE 7 Programmer I & II Study Guide
 
 
 
