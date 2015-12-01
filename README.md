@@ -8,9 +8,21 @@
 | Compiling      | Switch, String  | Pass by value  |
 | Interpret code | Encapsulation   | Recursion      |
 | enum, for in   | Inheritance     | Boolean        |
-| abstract       | Ploymorphism    |                |
+| abstract       | Ploymorphism    | Method overload|
 
 ## Resources
+
+## Linux
+[Gnome Terminator](http://gnometerminator.blogspot.ie/p/introduction.html)
+
+[Light Table](http://lighttable.com/)
+
+Install JDK
+- sudo apt-get update
+- java -version
+- sudo apt-get install default-jdk
+
+## Windows
 [PowerShell](https://msdn.microsoft.com/en-us/mt173057.aspx)
 
 [VSCode](https://code.visualstudio.com/)
@@ -18,6 +30,7 @@
 [ecollege.ie](http://www.ecollege.ie/moodle/course/info.php?id=55)
 
 [JavaRanch](http://www.javaranch.com/)
+
 
 ### Books
 [free-programming-books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
