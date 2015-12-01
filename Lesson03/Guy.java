@@ -9,35 +9,43 @@ public class Guy
 
   public static void main(String[] args)
   {
-    Guy joe = new Guy("Joe");
+    // create a new Guy (object) with name (label) Rick
+    Guy rick = new Guy("Rick");
 
+    // print Rick name in main method
+    System.out.println(rick + " Memory address for " + rick.name);
+
+    // use method to create a new Guy (object) Julian using rick.name
+    rick.newGuy(rick);
+
+    // create a new Guy (object) with name (label) Terry
     Guy terry = new Guy("Terry");
 
-    Guy john = joe;
+    System.out.println(terry + " Memory address for " + terry.name);
 
-    System.out.println(joe + " Memory address: " + joe.name);
-    System.out.println(terry + " Memory address: " + terry.name);
-    john.newGuy(john);
+    // print inside newGuyName method
     terry.newGuyName(terry);
   }
 
-  void newGuy(Guy john)
+  // method to create a new guy
+  void newGuy(Guy rick)
   {
-    john = new Guy("John");
-    System.out.println(john + " New Obj memory address: " + john.name);
+    // create a new Guy (object) Julian using Rick
+    rick = new Guy("Julian");
+    System.out.println(rick + " New Obj memory address for " + rick.name);
   }
 
   void newGuyName(Guy terry)
   {
+    // change name (label)
     terry.name = "Henry";
-    System.out.println(terry + " New Ref memory address was terry: " + terry.name);
+    System.out.println(terry + " New label to memory address was Terry, now " + terry.name);
   }
 }
 
-/*
-thewhitefox@thewhitefox:~/OCA-Java-Programmer/Lesson03$ java Guy
-Guy@6d172f8f Joe
-Guy@33e2ad75 Terry
-Guy@66e9f6ef John
-Guy@33e2ad75 Henry
+/* Output
+Guy@49431028 Memory address for Rick
+Guy@46244bb9 New Obj memory address for Julian
+Guy@78e782a8 Memory address for Terry
+Guy@78e782a8 New label to memory address was Terry, now Henry
 */
