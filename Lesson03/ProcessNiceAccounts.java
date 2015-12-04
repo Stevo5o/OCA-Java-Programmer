@@ -23,3 +23,19 @@ class ProcessNiceAccounts
     }
   }
 }
+
+/*
+The account with last name Oep and ID number  has balance $6,956.00
+Adding 0.0 percent...
+The account with last name Oep and ID number  has balance $6,956.00
+
+The account with last name Vau and ID number  has balance $8,167.00
+Adding 1.0 percent...
+The account with last name Vau and ID number  has balance $8,248.67
+
+The account with last name Srq and ID number  has balance $6,356.00
+Adding 4.0 percent...
+The account with last name Srq and ID number  has balance $6,610.24
+*/
+
+
