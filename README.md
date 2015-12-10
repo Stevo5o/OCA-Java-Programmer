@@ -2,13 +2,13 @@
 
 ![](http://education.oracle.com/education/ou_rd14/image/oracleuniversity_logo.png)
 
-| Lesson 01      | Lesson 02       | Lesson 3       |
-| :------------  | :------------   | :------------  |
-| Packages       | Basic if        | Debugging      |
-| Compiling      | Switch, String  | Pass by value  |
-| Interpret code | Encapsulation   | Recursion      |
-| enum, for in   | Inheritance     | Boolean        |
-| abstract       | Ploymorphism    | Method overload|
+| Lesson 01      | Lesson 02       | Lesson 03      | Lesson 04           |
+| :------------  | :------------   | :------------  | :------------       |
+| Packages       | Basic if        | Debugging      | Pass values methods |
+| Compiling      | Switch, String  | Pass by value  |                     |
+| Interpret code | Encapsulation   | Recursion      |                     |
+| enum, for in   | Inheritance     | Boolean        |                     |
+| abstract       | Ploymorphism    | Method overload|                     |
 
 ## Resources
 
@@ -28,10 +28,15 @@ Install JDK
 [VSCode](https://code.visualstudio.com/)
 
 ## On-line
+[ecollege](http://www.ecollege.ie/moodle/course/info.php?id=55)
 
-[ecollege.ie](http://www.ecollege.ie/moodle/course/info.php?id=55)
+[Java docs](http://docs.oracle.com/javase/8/)
 
 [JavaRanch](http://www.javaranch.com/)
+
+[Pass values to methods](http://www.dummies.com/how-to/content/how-to-pass-values-to-methods-in-java.html)
+
+[Primitive Vs Reference](http://pages.cs.wisc.edu/~bahls/cs302/PrimitiveVsReference.html)
 
 
 ### Books
