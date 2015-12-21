@@ -1,5 +1,7 @@
 public class TestEnum
 {
+	enum glasses {READING, DRIVING, SUN}
+	
 	public static void main(String[] args)
 	{			
 		glasses myGlasses = glasses.READING;
@@ -15,6 +17,6 @@ public class TestEnum
 		}
 	}	
 }
-enum glasses {READING, DRIVING, SUN}
+
 
 // Output: Glasses for reading
