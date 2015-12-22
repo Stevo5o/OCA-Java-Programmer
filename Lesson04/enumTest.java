@@ -4,8 +4,8 @@ public class enumTest
 	
 	public static void main (String[] args)
 	{
-		irishProvinces[] provinces = irishProvinces.values();
-		for(irishProvinces p:provinces)
+		// irishProvinces[] provinces = irishProvinces.values();
+		for(irishProvinces p : irishProvinces.values())
 		{
 			if(p == irishProvinces.LEINSTER)
 			{
