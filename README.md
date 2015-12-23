@@ -5,7 +5,7 @@
 | Lesson 01      | Lesson 02       | Lesson 03      | Lesson 04           |
 | :------------  | :------------   | :------------  | :------------       |
 | Packages       | Basic if        | Debugging      | Pass values methods |
-| Compiling      | Switch, String  | Pass by value  | Q & A               |
+| Compiling      | Switch, String  | Pass by value  | Q & A  enum         |
 | Interpret code | Encapsulation   | Recursion      |                     |
 | enum, for in   | Inheritance     | Boolean        |                     |
 | abstract       | Ploymorphism    | Method overload|                     |
