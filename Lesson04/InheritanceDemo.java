@@ -15,3 +15,23 @@ class InheritanceDemo
 		tObj.Display();
 	}	
 }
+
+/* Output
+Person: 
+First Name: Jim
+Last Name: Lahey
+
+Student: 
+First Name: Ricky
+Last Name: Smith
+ID: 1
+Standard: 1 - B
+Instructor: Roma
+
+Teacher: 
+First Name: Julian
+Last Name: Martin
+Main subject: English
+Salary: 6000
+Type: Primary Teacher
+*/
