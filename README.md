@@ -6,9 +6,24 @@
 | :------------  | :------------   | :------------  | :------------       |
 | Packages       | Basic if        | Debugging      | Pass values methods |
 | Compiling      | Switch, String  | Pass by value  | Q & A  enum         |
-| Interpret code | Encapsulation   | Recursion      |                     |
+| Interpret code | Encapsulation   | Recursion      | super               |
 | enum, for in   | Inheritance     | Boolean        |                     |
 | abstract       | Ploymorphism    | Method overload|                     |
+
+
+## Basics
+
+[Controlling Access to Members of a Class](http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
+
+| Modifier    | Class | Package | Subclass | World
+| :-----------|:------|:--------|:---------|:------ |
+| public      |  y    |    y    |    y     |   y    |
+| protected   |  y    |    y    |    y     |   n    |
+| no modifier |  y    |    y    |    n     |   n    |
+| private     |  y    |    n    |    n     |   n    |
+
+y: accessible
+n: not accessible
 
 ## Resources
 
