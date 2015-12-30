@@ -1,12 +1,12 @@
 class MyClass
 {
 	private int x;
-	int i;
+	private int i;
 	
 	public MyClass(int i)
 	{
 		x = i;
-		i = i;
+		this.i = i;
 	}
 	
 	public int getX()
@@ -21,6 +21,6 @@ public class TestMain
 	{
 		MyClass myNumber = new MyClass(10);
 		System.out.println(myNumber.getX());
-		System.out.println(myNumber.i);
+		System.out.println(myNumber.getX());
 	} 
 }
