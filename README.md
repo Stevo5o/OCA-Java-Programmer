@@ -5,7 +5,7 @@
 | Lesson 01      | Lesson 02       | Lesson 03      | Lesson 04           | Lesson 05           |
 | :------------  | :------------   | :------------  | :------------       | :------------       |
 | Packages       | Basic if        | Debugging      | Pass values methods | Encapsulation       |
-| Compiling      | Switch, String  | Pass by value  | Q & A  enum         |
+| Compiling      | Switch, String  | Pass by value  | Q & A  enum         | immutable           |
 | Interpret code | Encapsulation   | Recursion      | Override            |
 | enum, for in   | Inheritance     | Boolean        | super               |
 | abstract       | Ploymorphism    | Method overload| static              |
