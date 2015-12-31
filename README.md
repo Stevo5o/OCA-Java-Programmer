@@ -6,9 +6,9 @@
 | :------------  | :------------   | :------------  | :------------       |
 | Packages       | Basic if        | Debugging      | Pass values methods |
 | Compiling      | Switch, String  | Pass by value  | Q & A  enum         |
-| Interpret code | Encapsulation   | Recursion      | super               |
-| enum, for in   | Inheritance     | Boolean        |                     |
-| abstract       | Ploymorphism    | Method overload|                     |
+| Interpret code | Encapsulation   | Recursion      | Override            |
+| enum, for in   | Inheritance     | Boolean        | super               |
+| abstract       | Ploymorphism    | Method overload| Encapsulation       |
 
 
 ## Basics
