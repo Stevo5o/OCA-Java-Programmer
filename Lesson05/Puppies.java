@@ -39,5 +39,6 @@ public class Puppies
 
 /* 
 Tyson is a pup aged: 7
+Chief is a pup aged: 14
  & the number of the puppies is: 2
 */
