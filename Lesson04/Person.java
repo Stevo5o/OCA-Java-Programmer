@@ -9,7 +9,7 @@ class Person
 		LastName = lName;
 	}
 	
-	void Display()
+	void display()
 	{
 		System.out.println("First Name: " + FirstName);
 		System.out.println("Last Name: " + LastName);

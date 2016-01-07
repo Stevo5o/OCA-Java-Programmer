@@ -11,9 +11,9 @@ class Student extends Person
 		standard = stnd;
 		instructor = instr;
 	}
-	void Display()
+	void display()
 	{
-		super.Display();
+		super.display();
 		
 		System.out.println("ID: " + id);
 		System.out.println("Standard: " + standard);

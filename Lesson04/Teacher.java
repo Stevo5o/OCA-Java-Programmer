@@ -12,9 +12,9 @@ class Teacher extends Person
 		type = sType;
 	}
 	
-	void Display()
+	void display()
 	{
-		super.Display();
+		super.display();
 		
 		System.out.println("Main subject: " + mainSubject);
 		System.out.println("Salary: " + salary);
