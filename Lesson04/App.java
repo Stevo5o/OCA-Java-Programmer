@@ -22,9 +22,18 @@ class Person
 		System.out.println("Hello my name is " + FirstName + " " + LastName);
 	}	
 	
-	void sayHello()
+	void sayHello(String greeting, String name)
 	{
-		System.out.println("Hello there!" + " I'm " + LastName);
+		FirstName = name;
+		System.out.println(greeting + FirstName);
+	}
+	
+	void move(String direction, double distance)
+	{
+		System.out.println("Moving in this direction " + 
+			direction + 
+			"meters distance " + 
+			distance);
 	}
 }
 
@@ -35,7 +44,10 @@ class App
 		Person person1 = new Person("Stej", "theWhiteFox"); 
 		person1.display();
 		person1.speak();
-		person1.sayHello();
+		String reference = "West"; // pass by reference
+		int value = 12.3; // pass by value
+		person1.move("West", 12.2); // pass by reference and by value
+		person1.sayHello("Hello there! I'm ", "John"); // pass by reference
 	}
 }
 
