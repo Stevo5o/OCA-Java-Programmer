@@ -8,7 +8,7 @@
 | Compiling      | Switch, String  | Pass by value  | Q & A  enum         | Immutable           |
 | Interpret code | Encapsulation   | Recursion      | Override            | Polymorphism        |
 | enum, for in   | Inheritance     | Boolean        | super               | Local variable      |
-| abstract       | Ploymorphism    | Method overload| static              |
+| abstract       | Ploymorphism    | Method overload| static              | Stack Heap          |
 
 
 ## Basics
