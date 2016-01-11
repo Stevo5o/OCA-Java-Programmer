@@ -7,9 +7,9 @@
 | Packages       | Basic if        | Debugging      | Pass values methods | Encapsulation       |
 | Compiling      | Switch, String  | Pass by value  | Q & A  enum         | Immutable           |
 | Interpret code | Encapsulation   | Recursion      | Override            | Polymorphism        |
-| enum, for in   | Inheritance     | Boolean        | super               | Local variable      |
-| abstract       | Ploymorphism    | Method overload| static              | Stack Heap          |
-
+| enum           | Inheritance     | Boolean        | super               | Local variable      |
+| for in         | Ploymorphism    | Method overload| static              | Stack Heap          |
+| abstract       | Method override |
 
 ## Basics
 
