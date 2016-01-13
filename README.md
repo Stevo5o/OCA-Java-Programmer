@@ -10,6 +10,7 @@
 | enum           | Inheritance     | Boolean        | super               | Local variable      |
 | for in         | Ploymorphism    | Method overload| static              | Stack Heap          |
 | abstract       | Method override |
+| JFrame		 |
 
 ## Basics
 
