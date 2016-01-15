@@ -9,7 +9,7 @@
 | Interpret code | Encapsulation   | Recursion      | Override            | Polymorphism        |
 | enum           | Inheritance     | Boolean        | super               | Local variable      |
 | for in         | Ploymorphism    | Method overload| static              | Stack Heap          |
-| abstract       | Method override | Scope			|
+| abstract class | Method override | Scope			|
 | JFrame		 | 
 
 ## Basics
