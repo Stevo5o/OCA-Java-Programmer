@@ -9,8 +9,8 @@
 | Interpret code | Encapsulation   | Recursion      | Override            | Polymorphism        |
 | enum           | Inheritance     | Boolean        | super               | Local variable      |
 | for in         | Ploymorphism    | Method overload| static              | Stack Heap          |
-| abstract       | Method override |
-| JFrame		 |
+| abstract       | Method override | Scope			|
+| JFrame		 | 
 
 ## Basics
 
@@ -27,6 +27,28 @@
 
 y: accessible
 n: not accessible
+
+For the purposes of discussing the scope of variables, we can say that there are four
+basic scopes:
+- Static variables have the longest scope; they are created when the class is
+loaded, and they survive as long as the class stays loaded in the Java Virtual
+Machine (JVM).
+- Instance variables are the next most long-lived; they are created when a new
+instance is created, and they live until the instance is removed.
+- Local variables are next; they live as long as their method remains on the stack.
+	- Local variables can be alive and still be "out of scope."
+	- Local variables are sometimes called stack, temporary, automatic, or method variables
+- Block variables live only as long as the code block is executing.
+
+Default Values for Primitives and Reference Types
+
+| Variable Type  | Default Value |
+|:---------------|:------------- |
+| Object reference | null (not referencing any object) |
+| byte , short , int , long | 0 |
+| float , double | 0.0 |
+| boolean | false |
+| char | '\u0000'
 
 ## Resources
 
