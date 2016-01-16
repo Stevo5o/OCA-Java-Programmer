@@ -3,14 +3,14 @@
 ![](http://education.oracle.com/education/ou_rd14/image/oracleuniversity_logo.png)
 
 | Lesson 01      | Lesson 02       | Lesson 03      | Lesson 04           | Lesson 05           |
-| :------------  | :------------   | :------------  | :------------       | :------------       |
+| :------------  | :------------   | :------------  | :------------------ | :------------       |
 | Packages       | Basic if        | Debugging      | Pass values methods | Encapsulation       |
 | Compiling      | Switch, String  | Pass by value  | Q & A  enum         | Immutable           |
 | Interpret code | Encapsulation   | Recursion      | Override            | Polymorphism        |
 | enum           | Inheritance     | Boolean        | super               | Local variable      |
 | for in         | Ploymorphism    | Method overload| static              | Stack Heap          |
 | abstract class | Method override | Scope			|
-| JFrame		 | 
+| JFrame		 |    			   | Arrays		    |
 
 ## Basics
 
@@ -83,8 +83,3 @@ Install JDK
 [free-programming-books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
 
 Kathy Sierra, Bert Bates - OCA OCP Java SE 7 Programmer I & II Study Guide
-
-
-
-
-
