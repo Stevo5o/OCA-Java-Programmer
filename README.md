@@ -2,17 +2,19 @@
 
 ![](http://education.oracle.com/education/ou_rd14/image/oracleuniversity_logo.png)
 
-| Lesson 01      | Lesson 02       | Lesson 03      | Lesson 04           | Lesson 05           |
-| :------------  | :------------   | :------------  | :------------------ | :------------       |
-| Packages       | Basic if        | Debugging      | Pass values methods | Encapsulation       |
-| Compiling      | Switch, String  | Pass by value  | Q & A  enum         | Immutable           |
-| Interpret code | Encapsulation   | Recursion      | Override            | Polymorphism        |
-| enum           | Inheritance     | Boolean        | super               | Local variable      |
-| for in         | Ploymorphism    | Method overload| static              | Stack Heap          |
-| abstract class | Method override | Scope			|
-| JFrame		 |    			   | Arrays		    |
+| Lesson 01      | Lesson 02       | Lesson 03       | Lesson 04           | Lesson 05           |
+| :------------  | :------------   | :-------------- | :------------------ | :------------       |
+| Packages       | Basic if        | Debugging       | Pass values methods | Encapsulation       |
+| Compiling      | Switch, String  | Pass by value   | Q & A  enum         | Immutable           |
+| Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        |
+| enum           | Inheritance     | Boolean         | super               | Local variable      |
+| for in         | Ploymorphism    | Method overload | static              | Stack Heap          |
+| abstract class | Method override | Scope			 |
+| JFrame		 |    			   | Arrays		     |
+|				 |  			   |Pass Vars Methods|
 
 ## Basics
+"When the compiler's not happy, ain't nobody happy."
 
 [Flashcards](http://www.cram.com/user/ConchubhairtheWhiteFox)
 
