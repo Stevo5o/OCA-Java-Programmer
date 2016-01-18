@@ -12,7 +12,7 @@
 | abstract class | Method override | Scope			 |
 | JFrame		 |    			   | Arrays		     |
 |				 |  			   |Pass Vars Methods|
-
+|				 |				   |Shadowing vars   |
 ## Basics
 "When the compiler's not happy, ain't nobody happy."
 
