@@ -13,6 +13,9 @@
 | JFrame		 |    			   | Arrays		     |
 |				 |  			   |Pass Vars Methods|
 |				 |				   |Shadowing vars   |
+|				 |				   |Garbage Collection|
+|				 |				   |Self Test        |
+
 ## Basics
 "When the compiler's not happy, ain't nobody happy."
 
