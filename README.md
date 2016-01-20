@@ -2,8 +2,8 @@
 
 ![](http://education.oracle.com/education/ou_rd14/image/oracleuniversity_logo.png)
 
-| Lesson 01      | Lesson 02       | Lesson 03       | Lesson 04           | Lesson 05           |
-| :------------  | :------------   | :-------------- | :------------------ | :------------       |
+| Lesson 01      | Lesson 02       | Lesson 03       | Lesson 04           | Lesson 05           | Flow Control & Exceptions |
+| :------------  | :------------   | :-------------- | :------------------ | :------------       | :------------------------ |
 | Packages       | Basic if        | Debugging       | Pass values methods | Encapsulation       |
 | Compiling      | Switch, String  | Pass by value   | Q & A  enum         | Immutable           |
 | Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        |
