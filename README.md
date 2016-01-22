@@ -9,15 +9,91 @@
 | Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        |
 | enum           | Inheritance     | Boolean         | super               | Local variable      |
 | for in         | Ploymorphism    | Method overload | static              | Stack Heap          |
-| abstract class | Method override | Scope			 |
-| JFrame		 |    			   | Arrays		     |
-|				 |  			   |Pass Vars Methods|
-|				 |				   |Shadowing vars   |
+| Abstract class | Method override | Scope			 |
+| JFrame		 | ArrayList	   | Arrays		     |
+| import static	 | TreeSet		   |Pass Vars Methods|
+| 				 |				   |Shadowing vars   |
 |				 |				   |Garbage Collection|
 |				 |				   |Self Test        |
 
 ## Basics
 "When the compiler's not happy, ain't nobody happy."
+
+- Class:
+A template that describes the kinds of state and behavior that objects
+of its type support.
+- Object:
+At runtime, when the Java Virtual Machine (JVM) encounters the
+new keyword, it will use the appropriate class to make an object that is an
+instance of that class. That object will have its own state and access to all of
+the behaviors defined by its class.
+- State: (instance variables)
+Each object (instance of a class) will have its
+own unique set of instance variables as defined in the class. Collectively, the
+values assigned to an object's instance variables make up the object's state.
+- Behavior: (methods)
+When a programmer creates a class, she creates
+methods for that class. Methods are where the class's logic is stored and
+where the real work gets done. They are where algorithms get executed and
+data gets manipulated.
+
+Complete List of Java Keywords (assert added in 1.4, enum added in 1.5)
+|		| 		|	   |       |	     |         |        |
+|:------ | :------ | :------ | :------- | :------ | :------ |
+| abstract | boolean | break | byte | case | catch |
+| char | class | const | continue | default | do |
+| double | else | extends | final | finally | float |
+| for | goto | if | implements | import | instanceof |
+| int | interface | long | native | new | package |
+| private | protected | public | return | short | static |
+| strictfp | super | switch | synchronized | this | throw |
+| throws | transient | try | void | volatile | while |
+| assert | enum
+
+Rules associated with declaring classes, import statements, and package statements in a source file:
+- There can be only one public class per source code file.
+- Comments can appear at the beginning or end of any line in the source code
+file; they are independent of any of the positioning rules discussed here.
+- If there is a public class in a file, the name of the file must match the name
+of the public class. For example, a class declared as public class Dog { }
+must be in a source code file named Dog.java .
+- If the class is part of a package, the package statement must be the first line
+in the source code file, before any import statements that may be present.
+- If there are import statements, they must go between the package statement
+(if there is one) and the class declaration. If there isn't a package statement,
+then the import statement(s) must be the first line(s) in the source code file.
+
+If there are no package or import statements, the class declaration must be
+the first line in the source code file.
+- import and package statements apply to all classes within a source code file.
+In other words, there's no way to declare multiple classes in a file and have
+them in different packages or use different imports.
+- A file can have more than one nonpublic class.
+- Files with no public classes can have a name that does not match any of the
+classes in the file.
+
+The following are all legal declarations for the "special" main() :
+static public void main(String[] args)
+
+public static void main(String... x)
+
+static public void main(String bang_a_gong[])
+
+main() can be overloaded.
+
+Rules for using static imports:
+- You must say import static ; you can't say static import .
+- Watch out for ambiguously named static members. For instance, if you do a
+static import for both the Integer class and the Long class, referring to MAX_
+VALUE will cause a compiler error, since both Integer and Long have a MAX_
+VALUE constant, and Java won't know which MAX_VALUE you're referring to.
+- You can do a static import on static object references
+
+Class Access?
+1. Create an instance of class B.
+2. Extend class B (in other words, become a subclass of class B).
+3. Access certain methods and variables within class B, depending on the access
+control of those methods and variables.
 
 [Flashcards](http://www.cram.com/user/ConchubhairtheWhiteFox)
 
