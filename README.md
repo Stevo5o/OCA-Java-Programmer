@@ -38,6 +38,7 @@ where the real work gets done. They are where algorithms get executed and
 data gets manipulated.
 
 Complete List of Java Keywords (assert added in 1.4, enum added in 1.5)
+
 |		| 		|	   |       |	     |         |        |
 |:------ | :------ | :------ | :------- | :------ | :------ |
 | abstract | boolean | break | byte | case | catch |
