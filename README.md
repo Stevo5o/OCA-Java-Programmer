@@ -12,7 +12,7 @@
 | Abstract class | Method override | Scope			 |
 | JFrame		 | ArrayList	   | Arrays		     |
 | import static	 | TreeSet		   |Pass Vars Methods|
-| 				 |				   |Shadowing vars   |
+| Interface		 |				   |Shadowing vars   |
 |				 |				   |Garbage Collection|
 |				 |				   |Self Test        |
 
