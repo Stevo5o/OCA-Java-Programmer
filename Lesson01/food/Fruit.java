@@ -2,6 +2,10 @@ package food;
 
 import java.awt.Color;
 
+/*
+ this is the superclass
+*/
+
 public abstract class Fruit {
   private Color color;
   private boolean seasonal;

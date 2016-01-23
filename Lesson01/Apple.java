@@ -1,6 +1,10 @@
 import food.Fruit;
 import java.awt.Color;
 
+/*
+ this the subclass of the superclass Fruit
+*/
+
 class Apple extends Fruit {
   private static AppleVariety appleVariety; 
   
