@@ -1,4 +1,5 @@
-class Person {
+class Person 
+{
   // class template for creating objects
   // instance variables (data or "state")
   String name;
@@ -7,7 +8,6 @@ class Person {
   // class can contain:
   // 1. data
   // 2. subroutines (methods)
-
 }
 
 public class App {

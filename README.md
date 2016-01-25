@@ -13,8 +13,9 @@
 | JFrame		 | ArrayList	   | Arrays		     |
 | import static	 | TreeSet		   |Pass Vars Methods|
 | Interface		 |				   |Shadowing vars   |
-|				 |				   |Garbage Collection|
-|				 |				   |Self Test        |
+| Public 		 |				   |Garbage Collection|
+| Protected		 |				   |Self Test        |
+| Private		 |				   |
 
 ## Basics
 "When the compiler's not happy, ain't nobody happy."
