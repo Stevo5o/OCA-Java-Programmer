@@ -97,6 +97,15 @@ Class Access?
 3. Access certain methods and variables within class B, depending on the access
 control of those methods and variables.
 
+You need to understand two different access issues:
+- Whether method code in one class can access a member of another class
+- Whether a subclass can inherit a member of its superclass
+
+Three ways to access a method:
+- D Invoking a method declared in the same class
+- R Invoking a method using a reference of the class
+- I Invoking an inherited method
+
 [Flashcards](http://www.cram.com/user/ConchubhairtheWhiteFox)
 
 [Controlling Access to Members of a Class](http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
@@ -163,6 +172,8 @@ Install JDK
 
 
 ### Books
-[free-programming-books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
-
 Kathy Sierra, Bert Bates - OCA OCP Java SE 7 Programmer I & II Study Guide
+
+Mala Gupta - OCA Java SE 7 Programmer I Certification Guide Prepare for the 1Z0-803 exam
+
+[free-programming-books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
