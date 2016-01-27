@@ -106,6 +106,9 @@ Three ways to access a method:
 - R Invoking a method using a reference of the class
 - I Invoking an inherited method
 
+The first concrete subclass of an abstract class must implement all abstract
+methods of the superclass.
+
 [Flashcards](http://www.cram.com/user/ConchubhairtheWhiteFox)
 
 [Controlling Access to Members of a Class](http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
