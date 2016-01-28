@@ -109,6 +109,16 @@ Three ways to access a method:
 The first concrete subclass of an abstract class must implement all abstract
 methods of the superclass.
 
+nonaccess modifiers:
+- abstract OCA
+- static OCA
+- final OCA
+- synchronized
+- native
+- strictfp
+- transient
+- volatile
+
 [Flashcards](http://www.cram.com/user/ConchubhairtheWhiteFox)
 
 [Controlling Access to Members of a Class](http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)

@@ -1,4 +1,4 @@
-abstract class Car
+public abstract class Car extends Vehicle
 {
 	private double price;
 	private String model;
@@ -8,6 +8,10 @@ abstract class Car
 	public abstract void impressNeighbours();
 	// addtional important code goes here	
 
+	public void doCarThings()
+	{
+		// special car code goes here..
+	}
 
 	public static void main(String [] args)
 	{
