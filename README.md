@@ -5,7 +5,7 @@
 | Lesson 01      | Lesson 02       | Lesson 03       | Lesson 04           | Lesson 05           | Lesson06
 | :------------  | :------------   | :-------------- | :------------------ | :------------       | :------------------------ |
 | Packages       | Basic if        | Debugging       | Pass values methods | Encapsulation       | Flow Control & Exceptions |
-| Compiling      | Switch, String  | Pass by value   | Q & A  enum         | Immutable           |
+| Compiling      | Switch, String  | Pass by value   | Q & A  enum String  | Immutable           |
 | Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        |
 | enum           | Inheritance     | Boolean         | super               | Local variable      |
 | for in         | Ploymorphism    | Method overload | static              | Stack Heap          |
@@ -19,6 +19,10 @@
 
 ## Basics
 "When the compiler's not happy, ain't nobody happy."
+
+![](http://java5tutor.info/images/classsyntax.jpg)
+
+
 
 - Class:
 A template that describes the kinds of state and behavior that objects
@@ -37,6 +41,7 @@ When a programmer creates a class, she creates
 methods for that class. Methods are where the class's logic is stored and
 where the real work gets done. They are where algorithms get executed and
 data gets manipulated.
+"A method signature is a collection of information about the method, as in a C prototype or a forward function declaration in other languages. It includes the method's name, type, and visibility, as well as its arguments and return type."
 
 Complete List of Java Keywords (assert added in 1.4, enum added in 1.5)
 
@@ -179,10 +184,13 @@ Install JDK
 
 [JavaRanch](http://www.javaranch.com/)
 
+[Main method](http://www.dickbaldwin.com/java/Java014.htm)
+
+[Why Main method](http://java67.blogspot.ie/2012/08/what-is-main-method-in-java-why-main-is.html)
+
 [Pass values to methods](http://www.dummies.com/how-to/content/how-to-pass-values-to-methods-in-java.html)
 
 [Primitive Vs Reference](http://pages.cs.wisc.edu/~bahls/cs302/PrimitiveVsReference.html)
-
 
 ### Books
 Kathy Sierra, Bert Bates - OCA OCP Java SE 7 Programmer I & II Study Guide
