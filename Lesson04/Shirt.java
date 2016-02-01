@@ -31,3 +31,11 @@ class Shirt extends Clothing
 							"\nPrice: " + shirt.getPrice());
 	}
 }
+/*
+ thewhitefox@thewhitefox:~/OCA-Java-Programmer/Lesson04$ java Shirt
+ Description: Italian Shirt
+ Fit: M
+ ItemID: 1
+ Color Code: B
+ Price: 55.99
+*/
