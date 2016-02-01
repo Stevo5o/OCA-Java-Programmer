@@ -1,5 +1,6 @@
 class Shirt extends Clothing
 {
+	// private static char fit = 'U';
 	private char fit = 'U';
 	
 	public Shirt(int itemID, String desc, char colorCode, double price, char fit)
@@ -8,6 +9,7 @@ class Shirt extends Clothing
 		super(itemID, desc, colorCode, price);
 		
 		// reference to this object
+		// if static // Shirt.fit = fit;	 
 		this.fit = fit;	 
 	}
 	
