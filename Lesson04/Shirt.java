@@ -37,5 +37,5 @@ class Shirt extends Clothing
  Fit: M
  ItemID: 1
  Color Code: B
- Price: 55.99
+ Price: €55.99
 */
