@@ -28,7 +28,7 @@ class Shirt extends Clothing
 							"\nFit: " + shirt.getFit() + 
 							"\nItemID: " + shirt.getItemID() +							 
 							"\nColor Code: " + shirt.getColorCode() +
-							"\nPrice: " + shirt.getPrice());
+							"\nPrice: €" + shirt.getPrice());
 	}
 }
 /*
