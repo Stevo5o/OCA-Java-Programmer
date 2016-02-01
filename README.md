@@ -9,8 +9,8 @@
 | Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        |
 | enum           | Inheritance     | Boolean         | super               | Local variable      |
 | for in         | Ploymorphism    | Method overload | static              | Stack Heap          |
-| Abstract class | Method override | Scope			 |
-| JFrame		 | ArrayList	   | Arrays		     |
+| Abstract class | Method override | Scope			 | Superclass          |
+| JFrame		 | ArrayList	   | Arrays		     | Subclass            | 
 | import static	 | TreeSet		   |Pass Vars Methods|
 | Interface		 |				   |Shadowing vars   |
 | Public 		 |				   |Garbage Collection|
