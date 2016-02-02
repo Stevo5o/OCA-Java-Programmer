@@ -1,0 +1,10 @@
+public class QOD2
+{
+	public static void main(String [] args)
+	{
+		String S1 = "New String";
+		String S2 = new String("New String");
+		String S3 = S1 == S2 ? "They match" : "They don't match at all";
+		System.out.println(S3);
+	}
+}

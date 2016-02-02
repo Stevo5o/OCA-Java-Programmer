@@ -11,7 +11,7 @@
 | for in         | Ploymorphism    | Method overload | static              | Stack Heap          |
 | Abstract class | Method override | Scope			 | Superclass          |
 | JFrame		 | ArrayList	   | Arrays		     | Subclass            | 
-| import static	 | TreeSet		   |Pass Vars Methods|
+| import static	 | TreeSet		   |Pass Vars Methods| this
 | Interface		 |				   |Shadowing vars   |
 | Public 		 |				   |Garbage Collection|
 | Protected		 |				   |Self Test        |
@@ -20,9 +20,28 @@
 ## Basics
 "When the compiler's not happy, ain't nobody happy."
 
-![](http://java5tutor.info/images/classsyntax.jpg)
+```
+// public Access Modifier
+// class keyword used for specifing a class
+// name of class Cat
+public class Cat
+{ // open curly brace of the class Cat
+	
+	// class instance variables
+	String name, color;
+	int age;
+	
+	// name of class method talk
+	// return of type void
+	void talk()
+	{ // open curly brace of the method talk
+		
+		// the talk method statements
+		System.out.println("Meow");
+	} // closing curly brace of the method talk
+} // closing curly brace of the class Cat
 
-
+```
 
 - Class:
 A template that describes the kinds of state and behavior that objects
