@@ -4,7 +4,21 @@ public class QOD2
 	{
 		String S1 = "New String";
 		String S2 = new String("New String");
-		String S3 = S1 == S2 ? "They match" : "They don't match at all";
+		String S3 = (S1 == S2);  // this part has me confused?
+		// ? "They match" : "They don't match at all";
 		System.out.println(S3);
+		
+		if(S3)
+		{
+			System.out.println("if: They match");
+		}
+		else
+		{
+			System.out.println("else: They don't match at all");
+		}
 	}
 }
+/*
+ They don't match at all
+ else: They don't match at all
+*/
