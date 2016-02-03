@@ -44,13 +44,13 @@ class QOD
 		}
 		
 		
-		if((s1 == s2) && (s1.equals(s2)))
+		if((s1 == s2) || (s1.equals(s2)))
 		{
 			count++;
 			System.out.println("First if is right");
 		}
 		
-		if(s1.equalsIgnoreCase(s2) && (s1 == s2))
+		if(s1.equalsIgnoreCase(s2) || (s1 == s2))
 		{
 			count++;
 			System.out.println("Second if is right");

@@ -2,7 +2,7 @@
  Superclass or parent class
  Shirt is subclass
 */
-public class Clothing
+public abstract class Clothing
 {	
 	// fields given default values 
 	private int itemID = 0;
@@ -38,4 +38,6 @@ public class Clothing
 	{
 		return price;
 	}
+	
+	public abstract void display();
 }
