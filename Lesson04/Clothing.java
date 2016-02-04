@@ -39,5 +39,5 @@ public abstract class Clothing
 		return price;
 	}
 	
-	public abstract void display();
+	public abstract void display(int itemID, String desc, char colorCode, double price);
 }
