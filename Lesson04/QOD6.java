@@ -11,6 +11,12 @@ class QOD6
 		myList.add(null);
 		
 		myList.remove(3);
-		System.out.println(myList(3));
+		System.out.println(myList.get(3));
 	}
 }
+/*
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+	at java.util.ArrayList.rangeCheck(ArrayList.java:635)
+	at java.util.ArrayList.get(ArrayList.java:411)
+	at QOD6.main(QOD6.java:14)
+*/
