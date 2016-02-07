@@ -12,9 +12,9 @@
 | Abstract class | Method override | Scope			 | Superclass          |
 | JFrame		 | ArrayList	   | Arrays		     | Subclass            | 
 | import static	 | TreeSet		   |Pass Vars Methods| this
-| Interface		 |				   |Shadowing vars   |
-| Public 		 |				   |Garbage Collection|
-| Protected		 |				   |Self Test        |
+| Interface		 |Boolean		   |Shadowing vars   |
+| Public 		 |Postfix		   |Garbage Collection|
+| Protected		 |Prefix		   |Self Test        |
 | Private		 |				   |
 
 ## Basics
