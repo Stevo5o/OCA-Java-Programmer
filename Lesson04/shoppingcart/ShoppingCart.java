@@ -5,7 +5,8 @@ public class ShoppingCart
 	public static void main(String [] args)
 	{
 		Shirt shirt = new Shirt(1, "Italian Shirt", 'B', 55.99, 'S');
-		shirt.setFit('M');
+		shirt.setFit('M');		
+		
 		System.out.println("Description: " + shirt.getDesc() +
 							"\nFit: " + shirt.getFit() + 
 							"\nItemID: " + shirt.getItemID() +							 

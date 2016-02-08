@@ -29,6 +29,19 @@ public abstract class Clothing
 		return desc;
 	}
 	
+	public boolean setColorCode(char colorCode)
+	{
+		if(colorCode == 'B')
+		{
+			return false;
+		}
+		else 
+		{
+			this.colorCode = colorCode;
+			return true;
+		}
+	}
+	
 	public char getColorCode()
 	{
 		return colorCode;
