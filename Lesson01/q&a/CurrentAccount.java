@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 class CurrentAccount
 {
 	private String firstName;
@@ -8,9 +5,6 @@ class CurrentAccount
 	private String password;
 	private float balance;
 	private static int numOfCus;
-	// public static float total = 0;	
-	private List<CurrentAccount> accounts = new ArrayList<>();
-	// private static float avg;
 	
 	public CurrentAccount(String firstName, String secondName, String password)
 	{
@@ -18,17 +12,7 @@ class CurrentAccount
 		this.secondName = secondName;
 		this.password = password;		
 		numOfCus++;			
-	}	
-	
-	// public static float getTotalCost() 
-	// {
-	// 	float total = 0;
-	// 	for (CurrentAccount acc : accounts) 
-	// 	{
-	// 		total += acc.getBalance();
-	// 	}
-	// 	return total;
-	// }
+	}		
 	
 	public String setFirstName(String firstName)
 	{
@@ -78,11 +62,4 @@ class CurrentAccount
 	{
 		return numOfCus;
 	}	
-	
-	public static void main(String [] args)
-	{
-		CurrentAccount ca = new CurrentAccount("Ste", "OC", "1234");
-		ca.makeLodgement(40f);
-		System.out.println(ca.getBalance() + " No of cus" + getNumOfCus() + " Balance: " + " Total:");
-	}
 }
