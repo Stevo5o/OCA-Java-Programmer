@@ -93,7 +93,8 @@ class CurrentAccount
 	}	
 	
 	@Override
-    public String toString() {
+    public String toString() 
+	{
         return ("\nFirst Name: " + firstName + 
 				"\nLast Name: " + secondName +				
 				"\nBalance: " +  balance 
