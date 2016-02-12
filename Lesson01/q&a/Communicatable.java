@@ -1,4 +1,4 @@
-interface Communicatable
+public interface Communicatable extends Streamable
 {
 	public void makeCall (String noToDial);
 	public void receiveCall (String incomingPhoneNo);
@@ -6,4 +6,6 @@ interface Communicatable
 	public void receiveText (String message, String incomingPhoneNo);
 	public void recharge(boolean status);
 	public void hangUp();
+	
+	public void streamVideo();
 }

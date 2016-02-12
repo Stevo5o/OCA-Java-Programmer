@@ -1,4 +1,4 @@
-class Streamable
+public interface Streamable
 {
 	public void streamVideo();
 }

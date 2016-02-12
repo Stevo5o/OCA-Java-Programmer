@@ -1,4 +1,7 @@
-class Phone
+import java.util.ArrayList;
+import java.util.List;
+
+class Phone implements Communicatable
 {
 	private String name;
 	private int noOfDisplayPixels;
@@ -106,11 +109,59 @@ class Phone
 		);
 	}
 	
+	public void makeCall (String noToDial)
+	{
+		System.out.println(noToDial);
+	}
+	public void receiveCall (String incomingPhoneNo)
+	{
+		System.out.println(incomingPhoneNo);
+	}
+	public void sendText (String messageToSend,String noToText)
+	{
+		System.out.println(messageToSend + noToText);
+	}
+	public void receiveText (String message, String incomingPhoneNo)
+	{
+		System.out.println(message + incomingPhoneNo);
+	}
+	public void recharge(boolean status)
+	{
+		System.out.println(status);
+	}
+	public void hangUp()
+	{
+		System.out.println("Hang up");
+	}
+	
+	public void streamVideo()
+	{
+		
+	}
+	
 	public static void main(String [] args)
 	{
-		Phone phone = new Phone("G7",960,9.3f,15.4f,32f,true,false);
-		System.out.println(phone);
-		System.out.println();
+		List<Phone> phones = new ArrayList<>();
+		
+		Phone landLine2000 = new Phone("LandLine 2000",400,5.6f,8.5f,80.5f,true,false);
+		Phone g200 = new Phone("G200",510,4.5f,8.6f,80.5f,true,false);
+		
+		phones.add(landLine2000);
+		phones.add(g200);
+		
+		for (Phone phone : phones) 
+		{			
+			System.out.println(phone);	    
+   		}	
+		
+		System.out.println();		
+		
+		landLine2000.makeCall("0874646372");
+		landLine2000.receiveCall("0864546342");
+		landLine2000.hangUp();
+		landLine2000.sendText("Hi very warm!","0874546432");
+		landLine2000.receiveText("Lucky you!","0864545454");
+		landLine2000.recharge(true);
 	}
 }
 /*
@@ -124,3 +175,6 @@ class Phone
  Rechargng: false
  
 */
+
+
+// streamVideo()***
