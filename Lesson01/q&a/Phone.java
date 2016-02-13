@@ -96,18 +96,18 @@ class Phone implements Communicatable
 		return isRecharging;
 	}
 	
-	@Override
-	public String toString()
-	{
-		return ("\n Name: " + getName() +
-				"\n No of pixels: " + getNoOfDisplayPixels() + 
-				"\n Width: " + getWidth() +
-				"\n Height: " + getHeight() +
-				"\n Weight: " + getWeight() +
-				"\n Powered On: " + getIsPoweredOn() +
-				"\n Rechargng: " + getIsRecharging()		
-		);
-	}
+	// @Override
+	// public String toString()
+	// {
+	// 	return ("\n Name: " + getName() +
+	// 			"\n No of pixels: " + getNoOfDisplayPixels() + 
+	// 			"\n Width: " + getWidth() +
+	// 			"\n Height: " + getHeight() +
+	// 			"\n Weight: " + getWeight() +
+	// 			"\n Powered On: " + getIsPoweredOn() +
+	// 			"\n Rechargng: " + getIsRecharging()		
+	// 	);
+	// }
 	
 	public void makeCall (String noToDial)
 	{
@@ -153,30 +153,33 @@ class Phone implements Communicatable
 		
 		for (Phone phone : phones) 
 		{		
-			sb.append(phone);
+			sb.append(phone.getName());
+			sb.append(phone.getIsPoweredOn());
     		sb.append(",");	
+			// phone.makeCall("0874646372");
+			
    		}	
 		   
 		System.out.println(sb);
 		
 		System.out.println();		
 		
-		landLine2000.makeCall("0874646372");
-		landLine2000.receiveCall("0864546342");
-		landLine2000.hangUp();
-		landLine2000.sendText("Hi very warm!","0874546432");
-		landLine2000.receiveText("Lucky you!","0864545454");
-		landLine2000.recharge(true);
+		// landLine2000.makeCall("0874646372");
+		// landLine2000.receiveCall("0864546342");
+		// landLine2000.hangUp();
+		// landLine2000.sendText("Hi very warm!","0874546432");
+		// landLine2000.receiveText("Lucky you!","0864545454");
+		// landLine2000.recharge(true);
 		
-		System.out.println();
+		// System.out.println();
 		
-		g200.makeCall("0874646372");
-		g200.receiveCall("0864546342");
-		g200.hangUp();
-		g200.sendText("Hi very warm!","0874546432");
-		g200.receiveText("Lucky you!","0864545454");
-		g200.recharge(true);
-		g200.streamVideo();
+		// g200.makeCall("0874646372");
+		// g200.receiveCall("0864546342");
+		// g200.hangUp();
+		// g200.sendText("Hi very warm!","0874546432");
+		// g200.receiveText("Lucky you!","0864545454");
+		// g200.recharge(true);
+		// g200.streamVideo();
 	}
 }
 /*

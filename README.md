@@ -16,6 +16,7 @@
 | Public 		 |Postfix		   |Garbage Collection|
 | Protected		 |Prefix		   |Self Test        |
 | Private		 |				   |
+| String Object	 |				   |
 
 ## Basics
 "When the compiler's not happy, ain't nobody happy."
