@@ -96,19 +96,6 @@ class Phone implements Communicatable
 		return isRecharging;
 	}
 	
-	// @Override
-	// public String toString()
-	// {
-	// 	return ("\n Name: " + getName() +
-	// 			"\n No of pixels: " + getNoOfDisplayPixels() + 
-	// 			"\n Width: " + getWidth() +
-	// 			"\n Height: " + getHeight() +
-	// 			"\n Weight: " + getWeight() +
-	// 			"\n Powered On: " + getIsPoweredOn() +
-	// 			"\n Rechargng: " + getIsRecharging()		
-	// 	);
-	// }
-	
 	public void makeCall (String noToDial)
 	{
 		System.out.println(noToDial);
@@ -136,7 +123,20 @@ class Phone implements Communicatable
 	
 	public void streamVideo()
 	{
-		System.out.println("Streaming");
+		System.out.print(" Curtenly Streaming on ");
+	}
+	
+	@Override
+	public String toString()
+	{
+		return ("\n Name: " + getName() +
+				"\n No of pixels: " + getNoOfDisplayPixels() + 
+				"\n Width: " + getWidth() +
+				"\n Height: " + getHeight() +
+				"\n Weight: " + getWeight() +
+				"\n Powered On: " + getIsPoweredOn() +
+				"\n Recharging: " + getIsRecharging() 
+		);
 	}
 	
 	public static void main(String [] args)
@@ -146,51 +146,50 @@ class Phone implements Communicatable
 		Phone landLine2000 = new Phone("LandLine 2000",400,5.6f,8.5f,80.5f,true,false);
 		Phone g200 = new Phone("G200",510,4.5f,8.6f,80.5f,true,false);
 		
+		
 		phones.add(landLine2000);
 		phones.add(g200);
 		
-		StringBuilder sb = new StringBuilder();
-		
+		int index = 0;
 		for (Phone phone : phones) 
-		{		
-			sb.append(phone.getName());
-			sb.append(phone.getIsPoweredOn());
-    		sb.append(",");	
-			// phone.makeCall("0874646372");
+		{	
+			System.out.println(phone + " at index:" + (index++));
+			System.out.println();
+			phone.makeCall(" 0874646372");
+			phone.receiveCall(" 0864546342");
+			phone.hangUp();
+			phone.sendText(" Hi very warm!","0874546432");
+			phone.receiveText(" Lucky you!","0864545454");
+			phone.recharge(true);
 			
-   		}	
-		   
-		System.out.println(sb);
+			//check whether the name is G200 or not.
+			if(phone.getName().equals("G200"))
+			{				
+				phone.streamVideo();
+				System.out.print(phone.getName());
+			}
+   		}
 		
-		System.out.println();		
+		System.out.println();
 		
-		// landLine2000.makeCall("0874646372");
-		// landLine2000.receiveCall("0864546342");
-		// landLine2000.hangUp();
-		// landLine2000.sendText("Hi very warm!","0874546432");
-		// landLine2000.receiveText("Lucky you!","0864545454");
-		// landLine2000.recharge(true);
-		
-		// System.out.println();
-		
-		// g200.makeCall("0874646372");
-		// g200.receiveCall("0864546342");
-		// g200.hangUp();
-		// g200.sendText("Hi very warm!","0874546432");
-		// g200.receiveText("Lucky you!","0864545454");
-		// g200.recharge(true);
-		// g200.streamVideo();
 	}
 }
 /*
 
- Name: LandLine 2000
+  Name: LandLine 2000
  No of pixels: 400
  Width: 5.6
  Height: 8.5
  Weight: 80.5
  Powered On: true
- Rechargng: false
+ Recharging: false at index:0
+
+ 0874646372
+ 0864546342
+Hang up
+ Hi very warm!0874546432
+ Lucky you!0864545454
+true
 
  Name: G200
  No of pixels: 510
@@ -198,21 +197,14 @@ class Phone implements Communicatable
  Height: 8.6
  Weight: 80.5
  Powered On: true
- Rechargng: false
+ Recharging: false at index:1
 
-0874646372
-0864546342
+ 0874646372
+ 0864546342
 Hang up
-Hi very warm!0874546432
-Lucky you!0864545454
+ Hi very warm!0874546432
+ Lucky you!0864545454
 true
-
-0874646372
-0864546342
-Hang up
-Hi very warm!0874546432
-Lucky you!0864545454
-true
-Streaming
+ Curtenly Streaming on G200
  
 */
