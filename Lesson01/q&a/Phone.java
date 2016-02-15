@@ -96,6 +96,8 @@ class Phone implements Communicatable
 		return isRecharging;
 	}
 	
+	// methods
+	
 	public void makeCall (String noToDial)
 	{
 		System.out.println(noToDial);
@@ -129,6 +131,7 @@ class Phone implements Communicatable
 		}
 		
 	}
+	
 	public void hangUp()
 	{
 		System.out.print(" Terminating a phone call on a ");
@@ -157,8 +160,7 @@ class Phone implements Communicatable
 		List<Phone> phones = new ArrayList<>();
 		
 		Phone landLine2000 = new Phone("LandLine 2000",400,5.6f,8.5f,80.5f,true,false);
-		Phone g200 = new Phone("G200",510,4.5f,8.6f,80.5f,true,false);
-		
+		Phone g200 = new Phone("G200",510,4.5f,8.6f,80.5f,true,false);		
 		
 		phones.add(landLine2000);
 		phones.add(g200);
@@ -168,6 +170,7 @@ class Phone implements Communicatable
 			System.out.println(phone);
 			System.out.println();
 			
+			// check whether the name is LandLine 2000
 			if(phone.getName().equals("LandLine 2000"))
 			{				
 				landLine2000.makeCall(" Dialling number 0874646372 on a LandLine2000 phone.");
@@ -182,7 +185,7 @@ class Phone implements Communicatable
 				landLine2000.recharge(true);
 			}
 			
-			//check whether the name is G200 or not.
+			// check whether the name is G200
 			if(phone.getName().equals("G200"))
 			{	
 				g200.makeCall(" Dialling number 0874646372 on a G200 phone.");
@@ -200,8 +203,7 @@ class Phone implements Communicatable
 			}
    		}
 		
-		System.out.println();
-		
+		System.out.println();		
 	}
 }
 /*
