@@ -19,37 +19,67 @@ class QA13
 		ca01.makeLodgement(40f);
 		ca02.makeLodgement(100f);
 		ca03.makeLodgement(135f);
-	
-		String s = accounts + " ";
-		System.out.println(s);		
-	
-		// make a with drawal
-		ca01.makeWithdrawal(50f);
-		ca02.makeWithdrawal(600f);
-		ca03.makeWithdrawal(60f);	
 		
-		System.out.println(
+		// loop through account and if OK make withdrawal
+		for(CurrentAccount account : accounts)
+		{
+			System.out.println(account);
+			
+			if(account.getFirstName().equals("Billy") && account.getSecondName().equals("Bonds"))
+			{
+				ca01.makeWithdrawal(50f);
+				System.out.print("Balance: " + ca01.getBalance());
+			}
+			
+			if(account.getFirstName().equals("Clare") && account.getSecondName().equals("Taylor"))
+			{
+				ca02.makeWithdrawal(600f);
+				System.out.print("Balance: " + ca02.getBalance());
+			}
+			
+			if(account.getFirstName().equals("Ana") && account.getSecondName().equals("Long"))
+			{
+				ca03.makeWithdrawal(60f);
+				System.out.print("Balance: " + ca03.getBalance());
+			}
+			
+			System.out.println();
+		}
+		
+		System.out.printf(
 							"\nNumber: " + CurrentAccount.getNumOfCus() +							
 							"\nTotal: " + CurrentAccount.displayTotal(accounts) +
-							"\nAverage: " + CurrentAccount.displayAverage(accounts)
+							"\nAverage: " + "%.2f", CurrentAccount.displayAverage(accounts)
 							);	
+		
+		System.out.println();
 	}
 }
 /*
- [
- First Name: Billy
- Last Name: Bonds
- Balance: 40.0, 
- First Name: Clare
- Last Name: Taylor
- Balance: 100.0, 
- First Name: Ana
- Last Name: Long
- Balance: 135.0] 
- Cannot withdraw: 50.0. Insufficient Funds
- Cannot withdraw: 600.0. Insufficient Funds
+First Name: Billy
+Last Name: Bonds
+Password: 1234
+Balance: 40.0
+Withdraw request: 50.0
+Insufficient Funds
+Balance: 40.0
 
- Number: 3
- Total: 215.0
- Average: 71.666664
+First Name: Clare
+Last Name: Taylor
+Password: 1234
+Balance: 100.0
+Withdraw request: 600.0
+Insufficient Funds
+Balance: 100.0
+
+First Name: Ana
+Last Name: Long
+Password: 1234
+Balance: 135.0
+Withdraw request: 60.0
+Balance: 75.0
+
+Number: 3
+Total: 215.0
+Average: 71.67
 */

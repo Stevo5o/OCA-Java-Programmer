@@ -45,6 +45,17 @@ class CurrentAccount
 		return balance;
 	}
 	
+	public String setPassword(String password)
+	{
+		return this.password = password;
+	}
+	
+	// get the password 
+	public String getPassword()
+	{
+		return password;
+	}
+	
 	// make a lodgement 
 	public float makeLodgement(float topUp)
 	{
@@ -54,13 +65,15 @@ class CurrentAccount
 	// make a withdrawal if there are sufficient funds
 	public float makeWithdrawal(float withDraw)
 	{
+		System.out.println("Withdraw request: " + withDraw);
+		
 		if(withDraw <= balance)
 		{
 			return balance -= withDraw;			
 		}
 		else
 		{
-			System.out.println("Cannot withdraw: " + withDraw + ". Insufficient Funds");
+			System.out.println("Insufficient Funds");
 		}
 		
 		return withDraw;
@@ -96,7 +109,8 @@ class CurrentAccount
     public String toString() 
 	{
         return ("\nFirst Name: " + firstName + 
-				"\nLast Name: " + secondName +				
+				"\nLast Name: " + secondName +	
+				"\nPassword: " + getPassword() +			
 				"\nBalance: " +  balance 
 		); 
     }

@@ -59,6 +59,7 @@ class Main
 		System.out.println();		
 	}
 }
+
 /*
  Name: LandLine 2000
  No of pixels: 400
