@@ -108,10 +108,10 @@ class CurrentAccount
 	@Override
     public String toString() 
 	{
-        return ("\nFirst Name: " + firstName + 
-				"\nLast Name: " + secondName +	
+        return ("\nFirst Name: " + getFirstName() + 
+				"\nLast Name: " + getSecondName() +	
 				"\nPassword: " + getPassword() +			
-				"\nBalance: " +  balance 
+				"\nBalance: " +  getBalance() 
 		); 
     }
 }
