@@ -1,4 +1,4 @@
-class Phone implements Communicatable
+public abstract class Phone implements Communicatable
 {
 	private String name;
 	private int noOfDisplayPixels;
@@ -95,49 +95,19 @@ class Phone implements Communicatable
 	
 	// interface methods will override in subclasses
 	
-	public void makeCall (String noToDial)
-	{
-		System.out.println(noToDial);
-	}
+	public abstract void makeCall (String noToDial);
 	
-	public void receiveCall (String incomingPhoneNo)
-	{
-		System.out.println(incomingPhoneNo);
-	}
+	public abstract void receiveCall (String incomingPhoneNo);
 	
-	public void sendText (String messageToSend, String noToText)
-	{
-		System.out.print(" ");
-	}
+	public abstract void sendText (String messageToSend, String noToText);
 	
-	public void receiveText (String message, String incomingPhoneNo)
-	{
-		System.out.print(" ");
-	}
+	public abstract void receiveText (String message, String incomingPhoneNo);
 	
-	public void recharge(boolean status)
-	{
-		if(status == true)
-		{
-			System.out.println(" ");
-		}
+	public abstract void recharge(boolean status);
+	
+	public abstract void hangUp();
 		
-		else 
-		{
-			System.out.println(" ");
-		}
-		
-	}
-	
-	public void hangUp()
-	{
-		System.out.print(" ");
-	}
-		
-	public void streamVideo()
-	{
-		System.out.print(" ");
-	}
+	public abstract void streamVideo();
 	
 	@Override
 	public String toString()
