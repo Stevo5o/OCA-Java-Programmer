@@ -93,7 +93,7 @@ public abstract class Phone implements Communicatable
 		return isRecharging;
 	}
 	
-	// interface methods will override in subclasses
+	// subclasses Landline & G200 will override interface methods 
 	
 	public abstract void makeCall (String noToDial);
 	

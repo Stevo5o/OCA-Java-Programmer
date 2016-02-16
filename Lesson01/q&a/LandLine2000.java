@@ -53,6 +53,6 @@ class LandLine2000 extends Phone
 	@Override
 	public void streamVideo()
 	{
-		System.out.print(" Currently Streaming on " + getName());
+		System.out.print(" Cannot Stream on " + getName());
 	} 
 }
