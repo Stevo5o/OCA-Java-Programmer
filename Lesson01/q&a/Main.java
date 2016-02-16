@@ -12,8 +12,8 @@ class Main
 	{
 		List<Phone> phones = new ArrayList<>();
 		
-		Phone landLine2000 = new Phone("LandLine 2000",400,5.6f,8.5f,80.5f,true,false);
-		Phone g200 = new Phone("G200",510,4.5f,8.6f,80.5f,true,false);		
+		Phone landLine2000 = new LandLine2000("LandLine 2000",400,5.6f,8.5f,80.5f,true,false);
+		Phone g200 = new G200("G200",510,4.5f,8.6f,80.5f,true,false);		
 		
 		phones.add(landLine2000);
 		phones.add(g200);
@@ -26,33 +26,24 @@ class Main
 			// check whether the name is LandLine 2000
 			if(phone.getName().equals("LandLine 2000"))
 			{				
-				landLine2000.makeCall(" Dialling number 0874646372 on a LandLine2000 phone.");
-				landLine2000.receiveCall(" Incoming call from 0864546342 on a LandLine2000 phone.");
+				landLine2000.makeCall("0874646372");
+				landLine2000.receiveCall("0864546342");
 				landLine2000.hangUp();
-				System.out.print(landLine2000.getName() + " phone");
-				landLine2000.sendText("Hi, very warm!"," to phone number 0874546432 from a ");
-				System.out.print(landLine2000.getName() + " phone");
-				landLine2000.receiveText("Lucky you!"," recieved from 0864545454 from a");
-				System.out.print(" " + landLine2000.getName() + " phone");
-				System.out.print(" \n " + landLine2000.getName() + " phone");
+				landLine2000.sendText("Hi, very warm!","0874546432");
+				landLine2000.receiveText("Lucky you!","0864545454");
 				landLine2000.recharge(true);
 			}
 			
 			// check whether the name is G200
 			if(phone.getName().equals("G200"))
 			{	
-				g200.makeCall(" Dialling number 0874646372 on a G200 phone.");
-				g200.receiveCall(" Incoming call from 0864546342 on a G200 phone.");
+				g200.makeCall("0874646372");
+				g200.receiveCall("0864546342");
 				g200.hangUp();
-				System.out.print(g200.getName() + " phone");
-				g200.sendText("Hi, very warm!"," to phone number 0874546432 from a ");
-				System.out.print(g200.getName() + " phone");
-				g200.receiveText("Lucky you!"," recieved from 0864545454 from a");
-				System.out.print(" " + g200.getName() + " phone");
-				System.out.print(" \n " + g200.getName() + " phone");
+				g200.sendText("Hi, very warm!","0874546432");
+				g200.receiveText("Lucky you!","0864545454");
 				g200.recharge(true);			
 				g200.streamVideo();
-				System.out.print(g200.getName());
 			}
    		}
 		

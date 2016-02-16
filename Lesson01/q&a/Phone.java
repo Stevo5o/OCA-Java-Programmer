@@ -93,7 +93,7 @@ class Phone implements Communicatable
 		return isRecharging;
 	}
 	
-	// methods
+	// interface methods will override in subclasses
 	
 	public void makeCall (String noToDial)
 	{
@@ -105,38 +105,38 @@ class Phone implements Communicatable
 		System.out.println(incomingPhoneNo);
 	}
 	
-	public void sendText (String messageToSend,String noToText)
+	public void sendText (String messageToSend, String noToText)
 	{
-		System.out.print(" \n Sending text: " + messageToSend + noToText);
+		System.out.print(" ");
 	}
 	
 	public void receiveText (String message, String incomingPhoneNo)
 	{
-		System.out.print(" \n Incoming text: " + message + incomingPhoneNo);
+		System.out.print(" ");
 	}
 	
 	public void recharge(boolean status)
 	{
 		if(status == true)
 		{
-			System.out.println(" is currently recharging");
+			System.out.println(" ");
 		}
 		
 		else 
 		{
-			System.out.println(" is not currently recharging");
+			System.out.println(" ");
 		}
 		
 	}
 	
 	public void hangUp()
 	{
-		System.out.print(" Terminating a phone call on a ");
+		System.out.print(" ");
 	}
 		
 	public void streamVideo()
 	{
-		System.out.print(" Currently Streaming on ");
+		System.out.print(" ");
 	}
 	
 	@Override
