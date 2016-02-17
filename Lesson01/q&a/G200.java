@@ -7,13 +7,13 @@ class G200 extends Phone
 	
 	// methods from interfaces
 	@Override
-	public void makeCall (String noToDial)
+	public void makeCall(String noToDial)
 	{
 		System.out.println(" Dialling number " + noToDial + " on a " + getName() + " phone.");
 	}
 	
 	@Override
-	public void receiveCall (String incomingPhoneNo)
+	public void receiveCall(String incomingPhoneNo)
 	{
 		System.out.println(" Incoming call from " + incomingPhoneNo + " on a " + getName() + " phone.");
 	}	
@@ -25,13 +25,13 @@ class G200 extends Phone
 	}
 	
 	@Override
-	public void sendText (String messageToSend, String noToText)
+	public void sendText(String messageToSend, String noToText)
 	{
 		System.out.println(" Sending text: " + messageToSend + " to phone number " + noToText + " from a " + getName() + " phone");
 	}
 	
 	@Override
-	public void receiveText (String message, String incomingPhoneNo)
+	public void receiveText(String message, String incomingPhoneNo)
 	{
 		System.out.println(" Incoming text: " + message + " recieved from " + incomingPhoneNo + " from a " + getName() + " phone");
 	}

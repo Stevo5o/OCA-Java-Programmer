@@ -18,7 +18,7 @@ class Main
 		phones.add(landLine2000);
 		phones.add(g200);
 		
-		for (Phone phone : phones) 
+		for(Phone phone : phones) 
 		{	
 			System.out.println(phone);
 			System.out.println();
