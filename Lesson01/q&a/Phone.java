@@ -95,13 +95,13 @@ public abstract class Phone implements Communicatable
 	
 	// subclasses Landline & G200 will override interface methods 
 	
-	public abstract void makeCall (String noToDial);
+	public abstract void makeCall(String noToDial);
 	
-	public abstract void receiveCall (String incomingPhoneNo);
+	public abstract void receiveCall(String incomingPhoneNo);
 	
-	public abstract void sendText (String messageToSend, String noToText);
+	public abstract void sendText(String messageToSend, String noToText);
 	
-	public abstract void receiveText (String message, String incomingPhoneNo);
+	public abstract void receiveText(String message, String incomingPhoneNo);
 	
 	public abstract void recharge(boolean status);
 	
