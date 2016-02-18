@@ -9,7 +9,7 @@
 | Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        |
 | enum           | Inheritance     | Boolean         | super               | Local variable      |
 | for in         | Ploymorphism    | Method overload | static              | Stack Heap          |
-| Abstract class | Method override | Scope			 | Superclass          |
+| Abstract class |overload override| Scope			 | Superclass          |
 | JFrame		 | ArrayList	   | Arrays		     | Subclass            | 
 | import static	 | TreeSet		   |Pass Vars Methods| this
 | Interface		 |Boolean		   |Shadowing vars   |
@@ -127,9 +127,9 @@ You need to understand two different access issues:
 - Whether a subclass can inherit a member of its superclass
 
 Three ways to access a method:
-- D Invoking a method declared in the same class
-- R Invoking a method using a reference of the class
-- I Invoking an inherited method
+- Invoking a method declared in the same class
+- Invoking a method using a reference of the class
+- Invoking an inherited method
 
 The first concrete subclass of an abstract class must implement all abstract
 methods of the superclass.
@@ -143,6 +143,10 @@ nonaccess modifiers:
 - strictfp
 - transient
 - volatile
+
+method or overloaded?
+- Yes main method can be overloaded 
+- No main method cannot be overriden as it is static or class method
 
 [Flashcards](http://www.cram.com/user/ConchubhairtheWhiteFox)
 

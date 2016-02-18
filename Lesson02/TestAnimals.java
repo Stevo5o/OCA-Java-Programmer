@@ -7,6 +7,7 @@ public class TestAnimals
 				 // not an override of Animal’s eat() method	
 	}	
 }
+
 class Animal 
 {
 	public void eat() 
@@ -14,5 +15,6 @@ class Animal
 		System.out.println("Generic Animal Eating Generically");
 	}
  }
+ 
 class Lizard extends Animal { }
 

@@ -1,3 +1,4 @@
+// Animal is the superclass
 public class Bird extends Animal
 {
 	public Bird()

@@ -1,5 +1,7 @@
-public class Lizard extends Animal {
-	public static void main(String[] args) {	
+public class Lizard extends Animal 
+{
+	public static void main(String[] args) 
+	{	
 	Animal a = new Animal();
 	a.eat();
 	Lizard izzy = new Lizard();
@@ -9,13 +11,21 @@ public class Lizard extends Animal {
 	Lizard izzyE = new Lizard();
 	izzyE.eat("Meal worms");
 	}
-	public void printYourself() {
-				super.printYourself();
-	}		
-	public void eat() {
+	
+	// public void printYourself() 
+	// {
+	// 	super.printYourself();
+	// }	
+	
+	// @Override	
+	public void eat() 
+	{
 				System.out.println("Lizard eating crikets ");
 	}
-	public void eat(String s) {
+	
+	// Overloaded 
+	public void eat(String s) 
+	{
 				System.out.println("Lizard eating " + s);
 	}
 }

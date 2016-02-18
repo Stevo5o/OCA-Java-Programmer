@@ -1,3 +1,4 @@
+// Bird extends Animal
 public class Animal
 {
 	public Animal()
