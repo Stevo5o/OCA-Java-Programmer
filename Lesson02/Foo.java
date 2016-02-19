@@ -1,5 +1,14 @@
 class Foo
 {
+	int size;
+	String name;
+	
+	Foo(String name, int size)
+	{		
+		this.name = name;
+		this.size = size;
+	}
+	
 	public static void main(String [] args)
 	{
 		boolean b1, b2, b3, b4, b5, b6; // line 1
@@ -8,6 +17,7 @@ class Foo
 		// b5 = 'false'; // line 4 
 		// b6 = yes; // line 5
 		System.out.println(b3);
+		Foo f = new Foo("SteJ", 32);
 	} 
 }
 

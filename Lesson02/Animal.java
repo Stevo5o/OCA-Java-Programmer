@@ -1,4 +1,4 @@
-class Animal 
+public abstract class Animal 
 { 
 	void makeNoise() 
 	{
@@ -30,3 +30,14 @@ class Horse extends Animal
 						   // then do some Horse specific print work
 }
 
+class Bear extends Animal {}
+
+class Test 
+{
+	public Animal go()
+	{
+		return new Bear(); // OK Bear "is-a" Animal
+	}
+}
+
+// This code will compile, and the return value is a subtype
