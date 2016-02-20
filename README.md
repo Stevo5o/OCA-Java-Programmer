@@ -117,10 +117,10 @@ VALUE constant, and Java won't know which MAX_VALUE you're referring to.
 - You can do a static import on static object references
 
 Class Access?
-	1. Create an instance of class B.
-	2. Extend class B (in other words, become a subclass of class B).
-	3. Access certain methods and variables within class B, depending on the access
-control of those methods and variables.
+1. Create an instance of class B
+2. Extend class B (in other words, become a subclass of class B)
+3. Access certain methods and variables within class B, depending on the access
+control of those methods and variables
 
 You need to understand two different access issues:
 - Whether method code in one class can access a member of another class
