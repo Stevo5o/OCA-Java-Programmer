@@ -4,7 +4,7 @@ class Fibonacci
 {
 	public static void main(String [] args)
 	{
-		System.out.println("Enter number:");
+		System.out.print("Enter number: ");
 		
 		int number = new Scanner(System.in).nextInt();
 		
@@ -33,7 +33,6 @@ class Fibonacci
 }
 
 /*
-Enter number:
-9
-1 1 2 3 5 8 13 21 34 
+Enter number: 9
+1 1 2 3 5 8 13 21 34  
 */
