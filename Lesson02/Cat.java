@@ -30,11 +30,12 @@ public class Cat
 	
 	// name of class method talk
 	// return of type void
-	void talk()
+	static String talk()
 	{ // open curly brace of the method talk
 		
-		// the talk method statements
-		System.out.println("Meow");
+		int x = (int) (Math.random() * 6);
+		String sound = new String [] {"Meow","Purr","Trill","Growl","Wail","Hiss"}[x];
+		return sound;
 	} // closing curly brace of the method talk
 	
 	// main public static / class method to run program
@@ -43,12 +44,12 @@ public class Cat
 		// cat object called cat 
 		Cat cat = new Cat();
 		// print the name of the first cat
-		System.out.println(cat.name);
+		System.out.println(cat.name + " " + cat.talk());
 		
 		// cat object called cat2
-		Cat cat2 = new Cat("Sheba");
+		Cat cat2 = new Cat("Sheba");		
 		
 		// print the random name of cat2 
-		System.out.println(cat2.name);
+		System.out.println(cat2.name + " " + cat2.talk());
 	}
 } // closing curly brace of the class Cat
