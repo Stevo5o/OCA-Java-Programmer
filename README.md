@@ -15,8 +15,8 @@
 | Interface		 |Boolean		   |Shadowing vars   |
 | Public 		 |Postfix		   |Garbage Collection|
 | Protected		 |Prefix		   |Self Test        |
-| Private		 |ArrayList	   	   |
-| String Object	 |				   |
+| Private		 |ArrayList	Array  |
+| String Object	 |StringBuilder	   |
 
 ## Basics
 "When the compiler's not happy, ain't nobody happy."
