@@ -4,9 +4,15 @@ public abstract class Animal
 	private int age;
 	private boolean isHungry;	
 	
+	public Animal()
+	{
+		this("Unknown", 0, false);
+	}
+	
 	public Animal(String name, int age, boolean isHungry)
 	{
 		this.name = name;
+		
 		if(age < 0)
 		{
 			age = 0;
@@ -14,13 +20,9 @@ public abstract class Animal
 		else
 		{
 			this.age = age;
-		}		
+		}
+		
 		this.isHungry = isHungry;
-	}
-	
-	public Animal()
-	{
-		this("Unknown", 0, false);
 	}
 	
 	String setName(String name)
@@ -48,10 +50,8 @@ public abstract class Animal
 		if(age < 0)
 		{
 			age = 0;
-		}
-		
-		return age;
-		
+		}		
+		return age;		
 	}
 	
 	boolean getIsHungry()
@@ -62,4 +62,13 @@ public abstract class Animal
 	public abstract String feed();
 	
 	public abstract String preformTrick();
+	
+	@Override
+	public String toString()
+	{
+		return ("Name: " + getName() +
+				"\nAge: " + getAge() +
+				"\nIs Hunger: " + getIsHungry()		
+		);
+	}
 }
