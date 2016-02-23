@@ -66,9 +66,10 @@ public abstract class Animal
 	@Override
 	public String toString()
 	{
-		return ("Name: " + getName() +
-				"\nAge: " + getAge() +
-				"\nIs Hunger: " + getIsHungry()		
+		return (getName() +
+				" " + getAge() +
+				" " + getIsHungry() +
+				"\r"
 		);
 	}
 }

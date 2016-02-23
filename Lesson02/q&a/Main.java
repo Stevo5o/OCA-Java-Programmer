@@ -7,19 +7,24 @@ class Main
 	{
 		List<Animal> animals = new ArrayList<>();
 		
-		Animal penguin = new Penguin("Flapper", 10, true);
+		Animal penguin = new Penguin("Penguin Flapper", 10, true);
 		Animal penguin2 = new Penguin();
-		Animal elephant = new Elephant("Nelly", -3, false);
-		Animal elephant2 = new Elephant();
+		Animal elephant = new Elephant("Elephant Nelly", -3, false);
 		
 		animals.add(penguin);
 		animals.add(penguin2);
 		animals.add(elephant);
-		animals.add(elephant2);
 		
+		// foreach object in List of objects
 		for(Animal animal : animals)
 		{
 			System.out.println(animal);
 		}
 	}
 }
+
+/*
+Penguin Flapper 10 true
+Unknown 0 false
+Elephant Nelly 0 false
+*/
