@@ -17,6 +17,7 @@
 | Protected		 |Prefix		   |Self Test        |
 | Private		 |ArrayList	Array  |
 | String Object	 |StringBuilder	   |
+| toString()	 |
 
 ## Basics
 "When the compiler's not happy, ain't nobody happy."
