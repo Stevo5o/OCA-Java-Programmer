@@ -11,6 +11,8 @@ class Main
 		Animal penguin2 = new Penguin();
 		Animal elephant = new Elephant("Elephant Nelly", -3, false);
 		
+		Animal animalKeeper = new AnimalKeeper();
+		
 		animals.add(penguin);
 		animals.add(penguin2);
 		animals.add(elephant);
@@ -18,7 +20,20 @@ class Main
 		// foreach object in List of objects
 		for(Animal animal : animals)
 		{
-			System.out.println(animal);
+			if(animal.getIsHungry() == true)
+			{
+				System.out.println(animalKeeper.feed() + animal.getName());
+			}
+			
+			if(animal.getIsHungry() != true)
+			{
+				System.out.println(animalKeeper.preformTrick() + animal.getName());
+			}
+			
+			// if(animal.getIsHungry() == false)
+			// {
+			// 	System.out.println(animalKeeper.preformTrick() + animal.getName());
+			// }
 		}
 	}
 }
