@@ -1,10 +1,10 @@
-public abstract class Instrument
+public abstract class Instrument implements Playable
 {
 	private String name;
 	private String sectionName;
 	private float weight;
 	
-	public Instrument(Sting name, String sectionName, float weight)
+	public Instrument(String name, String sectionName, float weight)
 	{
 		this.name = name;
 		this.sectionName = sectionName;
@@ -13,24 +13,24 @@ public abstract class Instrument
 	
 	public Instrument()
 	{
-		super("No instrucment name", "No Section name", 0);
+		this("No instrucment name", "No Section name", 0);
 	}
 	
 	// setters	
 	
 	String setName(String name)
 	{
-		this.name = name;
+		return this.name = name;
 	}
 	
 	String setSectionName(String sectionName)
 	{
-		this.sectionName = sectionName;
+		return this.sectionName = sectionName;
 	}
 	
 	float setWeight(float weight)
 	{
-		this.weight = weight;
+		return this.weight = weight;
 	}
 	
 	// getters
