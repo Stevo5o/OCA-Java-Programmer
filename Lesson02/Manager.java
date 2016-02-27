@@ -1,11 +1,11 @@
 interface Moveable
 {
-	void move(); // implicitly public abstract
+	void move(); // implicitly public abstract, as default
 }
 
 class Animal implements Moveable
 {
-	void move()
+	public void move() // explicitly use public or error: attempting to assign weaker access privileges; was public
 	{
 		
 	}
@@ -49,7 +49,7 @@ class BMW extends Car
 }
 
 // private method does not extend, non-Inheritance, ergo cannot override
-// default	|
+// default 	|
 // protected	|
 // public      \|/
 
