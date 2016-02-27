@@ -48,10 +48,10 @@ class BMW extends Car
 	
 }
 
-// private method does not extend no Inheritance, ergo cannot override
-// default 			|
-// protected		|
-// public		   \|/
+// private method does not extend, non-Inheritance, ergo cannot override
+// default	|
+// protected	|
+// public      \|/
 
 // final methods cannot cannot be overridden
 // method signature -> name of method and any args that are speified
