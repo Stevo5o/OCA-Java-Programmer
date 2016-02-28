@@ -9,6 +9,6 @@ class AnimalKeeper extends Animal
 	@Override
 	public String preformTrick()
 	{
-		return "A Trick is preformed";
+		return getName() + " A Trick is preformed";
 	}
 }

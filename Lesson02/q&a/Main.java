@@ -7,14 +7,14 @@ class Main
 	{
 		List<Animal> animals = new ArrayList<>();
 		
-		Animal penguin = new Penguin("Penguin Flapper", 10, true);
+		Animal penguin = new Penguin(" Flapper", 10, true);
 		Animal penguin2 = new Penguin();
-		Animal elephant = new Elephant("Elephant Nelly", -3, false);
+		Animal elephant = new Elephant(" Nelly", -3, false);
 		
 		Animal animalKeeper = new AnimalKeeper();
 		
-		animals.add(penguin);
-		animals.add(penguin2);
+		// animals.add(penguin);
+		// animals.add(penguin2);
 		animals.add(elephant);
 		
 		// foreach object in List of objects
@@ -22,12 +22,12 @@ class Main
 		{
 			if(animal.getIsHungry() == true)
 			{
-				System.out.println(animalKeeper.feed() + animal.getName());
+				System.out.println(animalKeeper.feed());
 			}
 			
 			if(animal.getIsHungry() != true)
 			{
-				System.out.println(animalKeeper.preformTrick() + animal.getName());
+				System.out.println("Elephant" + animalKeeper.preformTrick());
 			}
 			
 			// if(animal.getIsHungry() == false)

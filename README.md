@@ -190,13 +190,18 @@ Default Values for Primitives and Reference Types
 ## Linux
 [Gnome Terminator](http://gnometerminator.blogspot.ie/p/introduction.html)
 
-[Light Table](http://lighttable.com/)
+[VSCode](https://code.visualstudio.com/)
 
-Install JDK
+Install OpenJDK
 - sudo apt-get update
 - java -version
 - sudo apt-get install default-jdk
 
+```
+java version "1.7.0_95"
+OpenJDK Runtime Environment (IcedTea 2.6.4) (7u95-2.6.4-0ubuntu0.14.04.1)
+OpenJDK 64-Bit Server VM (build 24.95-b01, mixed mode)
+```
 ## Windows
 [PowerShell](https://msdn.microsoft.com/en-us/mt173057.aspx)
 

@@ -12,11 +12,11 @@ class Penguin extends Animal
 	
 	public String feed()		
 	{
-		return "Penguin is fed";
+		return "Penguin is fed ";
 	}
 	
 	public String preformTrick()
 	{
-		return "Penguin is proforming a trick";
+		return "Penguin is proforming a trick ";
 	}
 }
