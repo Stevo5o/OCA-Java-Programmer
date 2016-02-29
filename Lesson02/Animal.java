@@ -1,13 +1,19 @@
 public abstract class Animal 
 { 
+	public Animal()
+	{
+		// super(); // is called implicitly calls Object class constructor
+		System.out.println("This is the animal class");
+	}
+	
 	void makeNoise() 
 	{
 		System.out.println("generic noise"); 
 	}
 	
-	public void printYourself()
+	public void printYourself(String name)
 	{
-		// useful code goes here 
+		System.out.println("generic noise " + name); 
 	}
 }
 class Dog extends Animal 
@@ -20,14 +26,6 @@ class Dog extends Animal
 	{
 		System.out.println("roll over");
 	}
-}
-
-class Horse extends Animal
-{
-	// take advantage of the Animal class and then some more 
-	super.printYourself(); // invoke the superclass Animal code 
-						   // (Animal) code 
-						   // then do some Horse specific print work
 }
 
 class Bear extends Animal {}
