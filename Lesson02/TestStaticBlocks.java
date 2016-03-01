@@ -12,7 +12,7 @@ class TestStaticBlocks
 		Alpha.val = 100; // Alpha class is now loaded
 		System.out.println("R"); // 5
 		Alpha a = new Alpha(); // the static blocks willl not be called again
-								//  as the Alpha class has alredty been loaded
+								//  as the Alpha class has already been loaded
 	}
 }
 

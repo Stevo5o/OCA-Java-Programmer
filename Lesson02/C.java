@@ -1,3 +1,4 @@
+// constructor inheritance
 class A
 {
 	public A()
