@@ -12,11 +12,11 @@ class Elephant extends Animal
 	
 	public String feed()		
 	{
-		return "Elephant is fed ";
+		return "Elephant";
 	}
 	
 	public String preformTrick()
 	{
-		return " blows with his trunk! ";
+		return "Elephant";
 	}
 }

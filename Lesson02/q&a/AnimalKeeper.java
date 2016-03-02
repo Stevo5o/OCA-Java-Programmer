@@ -3,12 +3,19 @@ class AnimalKeeper extends Animal
 	@Override
 	public String feed()
 	{
-		return "Feeding: ";
+		if(getName() == "Nelly")
+		{
+			return "Elephant " + getName() + "is being fed, he eats hay! ";
+		}
+		else
+		{
+			return "Penguin is being fed!";
+		}
 	}
 	
 	@Override
 	public String preformTrick()
 	{
-		return getName() + " A Trick is preformed";
+		return "Elephant blows his trunk";
 	}
 }
