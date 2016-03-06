@@ -50,10 +50,5 @@ public abstract class Instrument implements Playable
 		return weight;
 	}
 	
-	@Override
-	public String play(String piece)
-	{
-		return("Violin playing " + piece + ".");
-	}
-	
+	// public abstract String play(String piece);
 }

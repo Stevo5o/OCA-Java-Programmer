@@ -9,4 +9,8 @@ class Violin extends Instrument
 	{
 		super();
 	}
+	// public String play(String piece)
+	// {
+	// 	return "This is: " + piece;
+	// }
 }
