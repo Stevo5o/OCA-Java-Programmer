@@ -6,25 +6,25 @@ class Conduct
 	public static void main(String [] args)
 	{		
 		
-		Instrument musicConductViolin = new MusicConductor("Violin", "Strings", 2.34f);				
-		Instrument musicConductClarinet = new MusicConductor("Clarinet", "Woodwind", 1.45f);				
-		Instrument musicConductFrenchHorn = new MusicConductor("French Horn", "Brass", 5.43f);
+		Instrument violin = new MusicConductor("Violin", "Strings", 2.34f);				
+		Instrument clarinet = new MusicConductor("Clarinet", "Woodwind", 1.45f);				
+		Instrument frenchHorn = new MusicConductor("French Horn", "Brass", 5.43f);
 				
-		List<Instrument> musicConducts = new ArrayList<>();
+		List<Instrument> instruments = new ArrayList<>();
 		
-		musicConducts.add(musicConductViolin);
-		musicConducts.add(musicConductClarinet);
-		musicConducts.add(musicConductFrenchHorn);
+		instruments.add(violin);
+		instruments.add(clarinet);
+		instruments.add(frenchHorn);
 		
-		for(Instrument musicConductor : musicConducts)
+		for(Instrument instrument: instruments)
 		{
-			System.out.println(musicConductor.play(musicConductor.getName()));
+			System.out.println(instrument.play(" The Four Seasons by Vivaldi"));
 		}
 	}
 }
 
 /*
-Violin playing the four seasons by Vivaldi
-Clarinet playing the four seasons by Vivaldi
-French Horn playing the four seasons by Vivaldi
+Violin The Four Seasons by Vivaldi
+Clarinet The Four Seasons by Vivaldi
+French Horn The Four Seasons by Vivaldi
 */

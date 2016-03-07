@@ -13,6 +13,6 @@ class Violin extends Instrument
 	@Override
 	public String play(String piece)
 	{
-		return piece + " playing the four seasons by Vivaldi";
+		return ("Violin playing" + piece + ".");
 	}
 }

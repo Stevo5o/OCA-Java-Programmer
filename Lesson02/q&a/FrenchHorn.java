@@ -13,6 +13,6 @@ class FrenchHorn extends Instrument
 	@Override
 	public String play(String piece)
 	{
-		return piece + " playing the four seasons by Vivaldi";
+		return ("French Horn playing" + piece + ".");
 	}
 }
