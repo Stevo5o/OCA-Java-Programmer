@@ -1,12 +1,18 @@
-class Clarinet
+class Clarinet extends Instrument
 {
-	public Violin(Sting name, String sectionName, float weight)
+	public Clarinet(String name, String sectionName, float weight)
 	{
 		super(name,sectionName,weight);
 	}
 	
-	public Violin()
+	public Clarinet()
 	{
 		super();
+	}
+	
+	@Override
+	public String play(String piece)
+	{
+		return piece + " playing the four seasons by Vivaldi";
 	}
 }

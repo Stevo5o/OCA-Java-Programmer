@@ -1,12 +1,18 @@
-class FrenchHorn
+class FrenchHorn extends Instrument
 {
-	public Violin(Sting name, String sectionName, float weight)
+	public FrenchHorn(String name, String sectionName, float weight)
 	{
 		super(name,sectionName,weight);
 	}
 	
-	public Violin()
+	public FrenchHorn()
 	{
 		super();
+	}
+	
+	@Override
+	public String play(String piece)
+	{
+		return piece + " playing the four seasons by Vivaldi";
 	}
 }

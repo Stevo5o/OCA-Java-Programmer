@@ -49,6 +49,4 @@ public abstract class Instrument implements Playable
 	{
 		return weight;
 	}
-	
-	// public abstract String play(String piece);
 }
