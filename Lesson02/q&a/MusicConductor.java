@@ -5,9 +5,9 @@ class MusicConductor extends Instrument
 		super(name,sectionName,weight);
 	}
 	
-	@Override
-	public String play(String piece)
+	public MusicConductor()
 	{
-		return getName() + piece;
+		super();
 	}
+	
 }
