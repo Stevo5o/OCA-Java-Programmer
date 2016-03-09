@@ -1,13 +1,7 @@
-class MusicConductor extends Instrument
+class MusicConductor 
 {
-	public MusicConductor(String name, String sectionName, float weight)
+	public String conductInstrument(Playable instrument)
 	{
-		super(name,sectionName,weight);
+		return instrument.play("The Four Seasons by Vivaldi");
 	}
-	
-	public MusicConductor()
-	{
-		super();
-	}
-	
 }

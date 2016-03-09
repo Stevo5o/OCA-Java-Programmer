@@ -5,20 +5,17 @@ class Conduct
 {
 	public static void main(String [] args)
 	{		
+		List<Playable> orchestra = new ArrayList<Playable>();
 		
-		Instrument violin = new MusicConductor("Violin", "Strings", 2.34f);				
-		Instrument clarinet = new Clarinet("Clarinet", "Woodwind", 1.45f);				
-		Instrument frenchHorn = new FrenchHorn("French Horn", "Brass", 5.43f);
-				
-		List<Instrument> instruments = new ArrayList<>();
+		orchestra.add(new MusicConductor("Violin", "Strings", 2.34f));
+		orchestra.add(new Clarinet("Clarinet", "Woodwind", 1.45f));
+		orchestra.add(new FrenchHorn("French Horn", "Brass", 5.43f));
 		
-		instruments.add(violin);
-		instruments.add(clarinet);
-		instruments.add(frenchHorn);
+		MusicConductor musicConductor = new MusicConductor();
 		
-		for(Instrument instrument: instruments)
+		for(Playable play: orchestra)
 		{
-			System.out.println(instrument.play(" The Four Seasons by Vivaldi"));
+			System.out.println(musicConductor.conductInstrument(play));
 		}
 	}
 }
