@@ -36,7 +36,8 @@ class Main
 }
 
 /*
-Penguin Flapper 10 true
-Unknown 0 false
-Elephant Nelly 0 false
+Penguin Flapper is being fed. He eats fish from a bucket.
+Penguin Pengy flaps wings.
+Elephant Nelly is being fed, he eats hay.
+Elephant Tiny blows with his trunk!
 */
