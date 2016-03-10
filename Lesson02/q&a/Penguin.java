@@ -10,13 +10,14 @@ class Penguin extends Animal
 		super(name, age, isHungry);
 	}
 	
+	@Override
 	public String feed()		
 	{
-		return "Penguin is fed ";
+		return "Penguin" + getName() + " is being fed. He eats fish from a bucket.";
 	}
 	
 	public String preformTrick()
 	{
-		return "Penguin is proforming a trick ";
+		return "Penguin" + getName() + " flaps wings.";
 	}
 }

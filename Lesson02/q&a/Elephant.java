@@ -10,13 +10,15 @@ class Elephant extends Animal
 		super(name, age, isHungry);
 	}
 	
+		@Override
 	public String feed()		
 	{
-		return "Elephant";
+		return "Elephant" + getName() + " is being fed, he eats hay.";
 	}
 	
 	public String preformTrick()
 	{
-		return "Elephant";
+		return "Elephant" + getName() + " blows with his trunk!";
 	}
 }
+

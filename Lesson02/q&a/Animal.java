@@ -32,6 +32,11 @@ public abstract class Animal
 	
 	int setAge(int age)
 	{
+		if(age < 0)
+		{
+			age = 0;
+		}		
+		
 		return this.age = age;
 	}
 	
@@ -47,10 +52,6 @@ public abstract class Animal
 		
 	int getAge()
 	{
-		if(age < 0)
-		{
-			age = 0;
-		}		
 		return age;		
 	}
 	
