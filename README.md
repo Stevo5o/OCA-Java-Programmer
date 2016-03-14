@@ -6,7 +6,7 @@
 | :------------  | :------------   | :-------------- | :------------------ | :------------       | :------------------------ |
 | Packages       | Basic if        | Debugging       | Pass values methods | Encapsulation       | Flow Control & Exceptions |
 | Compiling      | Switch, String  | Pass by value   | Q & A  enum String  | Immutable           | Fibonacci 				 |
-| Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        |
+| Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        | FizzBuzz
 | enum           | Inheritance     | Boolean         | super               | Local variable      |
 | for in         | Ploymorphism    | Method overload | static              | Stack Heap          |
 | Abstract class |overload override| Scope			 | Superclass          |
