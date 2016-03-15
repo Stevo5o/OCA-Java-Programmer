@@ -12,12 +12,12 @@
 | Abstract class |overload override| Scope			 | Superclass          |
 | JFrame		 | Constructor	   | Arrays		     | Subclass            | 
 | import static	 | TreeSet		   |Pass Vars Methods| this
-| Interface		 |Boolean		   |Shadowing vars   |
+| Interface		 |Boolean		   | Shadowing vars  |
 | Public 		 |Postfix		   |Garbage Collection|
-| Protected		 |Prefix		   |Self Test        |
-| Private		 |ArrayList	Array  |
-| String Object	 |StringBuilder	   |
-| toString()	 | static blocks   |
+| Protected		 |Prefix		   | Self Test       |
+| Private		 |ArrayList	Array  | Literals		 |
+| String Object	 |StringBuilder	   | Assignments	 |
+| toString()	 | static blocks   | Variables
 
 ## Basics
 "When the compiler's not happy, ain't nobody happy."

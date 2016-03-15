@@ -29,10 +29,10 @@ class dog
 }
 
 /*
- line 7 - main() is placed on the stack
- line 9 - reference variable d is created on the stack, but there's no Dog object yet.
- line 10 - A new Dog object is created and is assigned to the d reference variable.
- line 11 - a copy of the reference variable d is passed to the go() method.
+line 7 - main() is placed on the stack
+line 9 - reference variable d is created on the stack, but there's no Dog object yet.
+line 10 - A new Dog object is created and is assigned to the d reference variable.
+line 11 - a copy of the reference variable d is passed to the go() method.
 line 13 - the go() method is placed on the stack, with the dog parameter as a local variable
 line 14 - a new Collar object is created on the heap and assigned to the Dog's  instance variable.
 line 17 - setName() is added to the stack, with the dogName parameter as it's local variable.

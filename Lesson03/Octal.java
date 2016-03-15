@@ -6,9 +6,10 @@ class Octal
 		int seven = 07; // equal to 7
 		int eight = 010; // equal to 8
 		int nine = 011; // equal to 9
+		int ten = 012; // equal to 10
 		
-		System.out.println("Octal 010 = " + eight);
+		System.out.println("Octal 012 = " + ten);
 	}
 }
 
-// Octal 010 = 8
+// Octal 012 = 10
