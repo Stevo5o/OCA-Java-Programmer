@@ -11,22 +11,11 @@ class FizzBuzz
 	{
 		for(int i = 1; i <= 100; i++)
 		{
-			if(i % 15 == 0) //check if number in position i is divisable by 15, if so don't check other 2 conditions - we don't want a double print
-			{
-				System.out.println("FizzBuzz");
-			}
-			else if(i % 3 == 0)
-			{
-				System.out.println("Fizz");
-			}
-			else if(i % 5 == 0)
-			{
-				System.out.println("Buzz");
-			}
-			else
-			{
-				System.out.println(i);
-			}
+			String output = "";
+			if(i % 3 == 0) output += "Fizz";
+			if(i % 5 == 0) output += "Buzz";
+			if(output.equals("")) output += i;
+			System.out.println(output);
 		}
 	}
 }
