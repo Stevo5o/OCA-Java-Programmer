@@ -7,7 +7,7 @@
 | Packages       | Basic if        | Debugging       | Pass values methods | Encapsulation       | Flow Control & Exceptions |
 | Compiling      | Switch, String  | Pass by value   | Q & A  enum String  | Immutable           | Fibonacci 				 |
 | Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        | FizzBuzz
-| enum           | Inheritance     | Boolean         | super               | Local variable      |
+| enum           | Inheritance     | Boolean         | super               | Local variable      | Swap Variables
 | for in         | Ploymorphism    | Method overload | static              | Stack Heap          |
 | Abstract class |overload override| Scope			 | Superclass          |
 | JFrame		 | Constructor	   | Arrays		     | Subclass            | 
@@ -224,6 +224,7 @@ OpenJDK 64-Bit Server VM (build 24.95-b01, mixed mode)
 [Primitive Vs Reference](http://pages.cs.wisc.edu/~bahls/cs302/PrimitiveVsReference.html)
 
 [Fibonacci](http://crunchify.com/write-java-program-to-print-fibonacci-series-upto-n-number/)
+[Swap Numbers](http://www.java2novice.com/java-interview-programs/swap-two-numbers/)
 
 ### Books
 Kathy Sierra, Bert Bates - OCA OCP Java SE 7 Programmer I & II Study Guide
