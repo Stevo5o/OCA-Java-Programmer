@@ -1,6 +1,6 @@
 /*
  Pay extra attention to code block scoping errors. You might see them in
- switches, try-catches, for , do , and while loops.
+ switches, try-catches, for, do, and while loops.
 */
 class ScopeErrors
 {

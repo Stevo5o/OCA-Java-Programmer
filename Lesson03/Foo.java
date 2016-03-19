@@ -39,20 +39,12 @@ class Foo
 }
 
 /*
- Size = 7
- Size in changeIt is 207
- Size after changeIt is 7
+Size = 7
+Size in changeIt is 207
+Size after changeIt is 7
 -------------------------------
- f.myBar.barNum = 28
- myBar in changeIt is: 99
- myBar in changeIt is now: 420
- f.myBar.barNum after changeIt = 420
-*/
-
-
-
-/*
- Size = 7
- Size in changeIt is 207
- Size after changeIt is 7
+f.myBar.barNum = 28
+myBar in changeIt is: 99
+myBar in changeIt is now: 420
+f.myBar.barNum after changeIt = 420
 */

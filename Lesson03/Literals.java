@@ -39,4 +39,15 @@ class Literals
 	// literal values for Strings
 	String s = "SteJ theWhiteFox";
 	System.out.println("SteJ" + " theWhiteFox");
+	
+	// casting 
+	int a = 100;
+	long b = a; // implicit cast, int value always fits in a long
+	
+	float a = 100.001f;
+	int b = (int)a; // explicit cast, the float could lose info
+	
+	double d = 100L; // implicit cast
+	
+	int x = 3457.229; // illegal
 }
