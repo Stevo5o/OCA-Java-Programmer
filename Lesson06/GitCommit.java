@@ -7,6 +7,48 @@ class GitCommit
 {
 	public static void main (String [] args)
 	{
+		// try(BufferedReader br = new BufferedReader(new FileReader("emoji.txt")))
+		// {
+			
+		// 	String sCurrentLine;
+						
+		// 	List<String> emoji = new ArrayList<String>();
+			
+			
+		// 	while((sCurrentLine = br.readLine()) != null)
+		// 	{
+				
+				
+		// 		emoji.add(sCurrentLine.nextLine());				
+		// 		// emoji.add(sCurrentLine.split(","));			
+				
+		// 		System.out.println();
+				
+		// 		// emoji.add(br.readLine()); 
+				
+		// 		// for(String emojie : emoji)
+		// 		// {
+		// 		// 	System.out.println(emojie);
+		// 		// }
+				
+				
+		// 		// Random random = new Random();
+		// 		// System.out.println(emoji.size());
+		// 		// System.out.println(sCurrentLine);
+				
+		
+		// 		// String randomPick1 = random.nextInt(emoji.size());
+		// 		// String randomPick2 = emoji[random.nextInt(emoji.length)];
+		
+		// 		// System.out.println(":" + randomPick1 + ":");	
+				
+		// 	}
+		// }
+		// catch(IOException e)
+		// {
+		// 	e.printStackTrace();
+		// }
+		
 		Scanner scanner = new Scanner(System.in);
 		
 		String gitCommit;
