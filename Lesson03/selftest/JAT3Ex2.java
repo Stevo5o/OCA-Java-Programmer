@@ -7,8 +7,13 @@ class JAT3Ex2
 		byte c = (byte)127;
 		byte d = 25;
 		byte e = 26;
-		byte f = 
-		byte g = 
-		byte h = 
+		byte f = d + e;
+		byte g = (byte)d + e;
+		byte h = (byte)(d + e);
+		short i = (short)34;
+		short j = ((byte) 5 * (short) 15);
+		short k = (short)((byte) 5 * (short) 15 );
+		short l = (5 * 15);
 	}
 }
+
