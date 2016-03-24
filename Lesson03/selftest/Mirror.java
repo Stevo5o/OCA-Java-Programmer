@@ -2,7 +2,7 @@ class Mirror
 {
 	int size = 7;
 	
-	public static vid main(String args)
+	public static void main(String [] args)
 	{
 		Mirror m1 = new Mirror();
 		Mirror m2 = m1;
@@ -17,3 +17,4 @@ class Mirror
 		i = 12;
 	}
 }
+// 8 10

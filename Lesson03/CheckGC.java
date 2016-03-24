@@ -17,9 +17,12 @@ public class CheckGC
 		}		
 		System.out.println("After Memory: "
 							+ rt.freeMemory());
-		rt.gc();
-		System.out.println("After GC Memory = "
+		for(int i = 0; i < 3; i++)
+		{
+			rt.gc();
+			System.out.println("After GC Memory = "
 							+ rt.freeMemory());
+		}		
 	}
 }
 /*
@@ -27,4 +30,6 @@ Total JVM memory: 124256256
 Before Memory = 122934808
 After Memory: 122934808
 After GC Memory = 123356568
+After GC Memory = 123356488
+After GC Memory = 123356488
 */
