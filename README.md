@@ -186,6 +186,21 @@ Default Values for Primitives and Reference Types
 | boolean | false |
 | char | '\u0000'
 
+Variable types
+---------------
+1. Primitive data type -> int val = 90, val : 90
+
+HEAP
+----
+1000x: StudentObj, val : 90
+
+STACK
+-----
+Main_Stack
+----------
+val: 90
+
+
 ## Resources
 
 ## Linux
