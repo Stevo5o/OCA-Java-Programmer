@@ -11,7 +11,7 @@ class JAT3Ex2
 		byte d = 25;
 		System.out.println(d); // 25
 		byte e = 26;
-		System.out.println(e); // 26
+		System.out.println(e); // 26		 
 		// byte f = d + e;
 		// System.out.println(f); // error: possible loss of precision
 		// byte g = (byte)d + e;

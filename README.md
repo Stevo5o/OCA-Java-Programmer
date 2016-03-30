@@ -14,10 +14,10 @@
 | import static	 | TreeSet		   |Pass Vars Methods| this
 | Interface		 |Boolean		   | Shadowing vars  |
 | Public 		 |Postfix		   |Garbage Collection|
-| Protected		 |Prefix		   | Self Test       |
-| Private		 |ArrayList	Array  | Literals		 |
-| String Object	 |StringBuilder	   | Assignments	 |
-| toString()	 | static blocks   | Variables
+| Protected		 |Prefix		   | Literals 		 |
+| Private		 |ArrayList	Array  | Assignments	 |
+| String Object	 |StringBuilder	   | Variables	     |
+| toString()	 | static blocks   | Stack Heap  	 |
 
 ## Basics
 "When the compiler's not happy, ain't nobody happy."
@@ -188,18 +188,26 @@ Default Values for Primitives and Reference Types
 
 Variable types
 ---------------
-1. Primitive data type -> int val = 90, val : 90
+1. Primitive data type -> int val = 90, val : 90 (byte, short, int, long) (float, double) (char) (boolean)
+2. Obect reference variables -> Student st = new Student();
+
+JVM starts it's devided into 2 sections Heap and Stack
 
 HEAP
 ----
-1000x: StudentObj, val : 90
+Obects are always created in heap
+1000x: StudentObj, val : 90 - instance variable
+
+class_data
+----------
+100x: Student.class, staticVariables -> val : 90
 
 STACK
 -----
 Main_Stack
 ----------
-val: 90
-
+val: 90 - local variable 
+st: 1000x
 
 ## Resources
 
