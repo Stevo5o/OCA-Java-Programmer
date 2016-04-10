@@ -27,4 +27,6 @@ class Fishing
 	             ^
   required: byte
   found:    int
+  When a mathematical operation is performed on
+  any primitives smaller than int s, the result is automatically cast to an integer.
 */
