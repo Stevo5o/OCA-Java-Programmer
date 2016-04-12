@@ -22,3 +22,4 @@ class Telescope
 		magnify *= 7; 
 	}
 }
+// 10

@@ -1,7 +1,7 @@
 class Wind
 {
 	int id;
-	Wind(int i) { id = 1; }
+	Wind(int i) { id = i; }
 	public static void main(String [] args)
 	{
 		new Wind(3).go();
@@ -13,3 +13,4 @@ class Wind
 		System.out.println(w1.id + " " + w2.id);
 	}
 }
+// 1 2
