@@ -11,9 +11,9 @@
 | for in         | Ploymorphism    | Method overload | static              | Stack Heap          |
 | Abstract class |overload override| Scope			 | Superclass          |
 | JFrame		 | Constructor	   | Arrays		     | Subclass            | 
-| import static	 | TreeSet		   |Pass Vars Methods| this
-| Interface		 |Boolean		   | Shadowing vars  |
-| Public 		 |Postfix		   |Garbage Collection|
+| import static	 | TreeSet		   |Pass Vars Methods| this				   |
+| Interface		 |Boolean		   | Shadowing vars  | Operators		   |
+| Public 		 |Postfix		   |Garbage Collection| instanceof		   |
 | Protected		 |Prefix		   | Literals 		 |
 | Private		 |ArrayList	Array  | Assignments	 |
 | String Object	 |StringBuilder	   | Variables	     |
@@ -208,6 +208,14 @@ Main_Stack
 ----------
 val: 90 - local variable 
 st: 1000x
+
+Java has four relational operators that can be used to compare any combination of
+integers, floating-point numbers, or characters:
+
++ ">" Greater than
++ ">=" Greater than or equal to
++ "<" Less than
++ "<=" Less than or equal to
 
 ## Resources
 
