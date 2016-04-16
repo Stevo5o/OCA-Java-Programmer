@@ -14,7 +14,7 @@
 | import static	 | TreeSet		   |Pass Vars Methods| this				   |
 | Interface		 |Boolean		   | Shadowing vars  | Operators		   |
 | Public 		 |Postfix		   |Garbage Collection| instanceof		   |
-| Protected		 |Prefix		   | Literals 		 |
+| Protected		 |Prefix		   | Literals 		 | Increment Decrement |
 | Private		 |ArrayList	Array  | Assignments	 |
 | String Object	 |StringBuilder	   | Variables	     |
 | toString()	 | static blocks   | Stack Heap  	 |
@@ -216,6 +216,9 @@ integers, floating-point numbers, or characters:
 + ">=" Greater than or equal to
 + "<" Less than
 + "<=" Less than or equal to
+
+*If either operand is a String , the + operator becomes a String concatenation
+operator. If both operands are numbers, the + operator is the addition operator.*
 
 ## Resources
 
