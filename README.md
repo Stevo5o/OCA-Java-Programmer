@@ -220,6 +220,8 @@ integers, floating-point numbers, or characters:
 *If either operand is a String , the + operator becomes a String concatenation
 operator. If both operands are numbers, the + operator is the addition operator.*
 
+The logical operators ( && , || , & , | , and ^ ) can be used only to evaluate two boolean expressions.
+
 ## Resources
 
 ## Linux
