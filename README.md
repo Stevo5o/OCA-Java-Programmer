@@ -9,18 +9,20 @@
 | Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        | FizzBuzz
 | enum           | Inheritance     | Boolean         | super               | Local variable      | Swap Variables
 | for in         | Ploymorphism    | Method overload | static              | Stack Heap          |
-| Abstract class |overload override| Scope			 | Superclass          |
-| JFrame		 | Constructor	   | Arrays		     | Subclass            | 
-| import static	 | TreeSet		   |Pass Vars Methods| this				   |
+| Abstract class |overload override| Scope			 | Superclass          | Strings 			 |
+| JFrame		 | Constructor	   | Arrays		     | Subclass            | Arrays				 |
+| import static	 | TreeSet		   |Pass Vars Methods| this				   | ArrayLists 		 |
 | Interface		 |Boolean		   | Shadowing vars  | Operators		   |
 | Public 		 |Postfix		   |Garbage Collection| instanceof		   |
 | Protected		 |Prefix		   | Literals 		 | Increment Decrement |
-| Private		 |ArrayList	Array  | Assignments	 |
+| Private		 |ArrayList	Array  | Assignments	 | ternary
 | String Object	 |StringBuilder	   | Variables	     |
 | toString()	 | static blocks   | Stack Heap  	 |
 
 ## Basics
 "When the compiler's not happy, ain't nobody happy."
+
+,  and 
 
 ```
 // public Access Modifier
@@ -221,6 +223,31 @@ integers, floating-point numbers, or characters:
 operator. If both operands are numbers, the + operator is the addition operator.*
 
 The logical operators ( && , || , & , | , and ^ ) can be used only to evaluate two boolean expressions.
+
+Ternary
+Exp1 ? Exp2 : Exp3
+Condition ? true : false;
+
+Ternary nested
+Exp1 ? (ExpA ? ExpB : ExpC) : Exp3
+Condition ? (second condition ? true : false) false;
+System.out.println(n >= 0 ? (n % 2 == 1 ? "Positive Odd" : "Positive Even") : "Negitive";
+
+Switch
+``` 
+switch(variable / expression)
+{
+	case val1 : statement1;
+				break;
+	case val2 : statement2;
+				break;
+	...
+	case valN : statementN;
+				break;
+	default   : statement;
+				break;
+}
+```
 
 ## Resources
 
