@@ -10,7 +10,7 @@ public class Cow extends Animal
 	
 	public void sayHello()
 	{
-		System.out.println("Moo my name is " + name);
+		System.out.println("Moo my name is " + getName());
 	}
 	
 	public void whatType()
