@@ -22,8 +22,6 @@
 ## Basics
 "When the compiler's not happy, ain't nobody happy."
 
-,  and 
-
 ```
 // public Access Modifier
 // class keyword used for specifing a class
