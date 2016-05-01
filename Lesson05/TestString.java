@@ -27,6 +27,20 @@ class TestString
 		String y = "taxi";
 		y.concat(" cabie"); // lost
 		System.out.println(y + " cab");
+		
+		String j = "libary";
+		System.out.println(j + " card");
+		
+		String k = "Atlantic";
+		k += " ocean";
+		System.out.println(k);
+		
+		String m = "exit";
+		System.out.println(m.equalsIgnoreCase("EXIT"));
+		System.out.println(m.equalsIgnoreCase("xtie"));
+		
+		String n = "1234567";
+		System.out.println(n.length());		
 	}
 }
 /*
@@ -34,4 +48,9 @@ String s = abcdef more stuff more stuff
 x = Java
 spring winter spring summer 
 Third letter in spring is: r
+libary card
+Atlantic ocean
+true
+false
+7
 */
