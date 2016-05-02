@@ -3,30 +3,35 @@ package food;
 import java.awt.Color;
 
 /*
- this is the superclass
+ this is the superclass Fruit
 */
 
-public abstract class Fruit {
+public abstract class Fruit 
+{
   private Color color;
   private boolean seasonal;
 
-  public Fruit(Color color, boolean seasonal) {
+  public Fruit(Color color, boolean seasonal) 
+  {
     this.color = color;
     this.seasonal = seasonal;
   }
 
   public abstract void prepare();
 
-  public Color getColor() {
+  public Color getColor() 
+  {
     return color;
   }
 
-  public boolean isSeasonal() {
+  public boolean isSeasonal() 
+  {
     return seasonal;
   }
   
   @Override
-  public String toString() {
+  public String toString() 
+  {
     StringBuilder builder = new StringBuilder();
     builder.append("Color: " + color.toString());
     

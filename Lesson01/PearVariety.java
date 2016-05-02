@@ -1,5 +1,5 @@
 // i forget what this is?
-public enum AppleVariety 
+public enum PearVariety 
 {
 	A, B, C, D, E
 };
