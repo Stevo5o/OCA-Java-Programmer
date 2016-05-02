@@ -286,6 +286,7 @@ OpenJDK 64-Bit Server VM (build 24.95-b01, mixed mode)
 
 [Fibonacci](http://crunchify.com/write-java-program-to-print-fibonacci-series-upto-n-number/)
 [Swap Numbers](http://www.java2novice.com/java-interview-programs/swap-two-numbers/)
+![](http://educateinspirechange.org/wp-content/uploads/2014/08/fibonacci_spiral.jpg)
 
 ### Books
 Kathy Sierra, Bert Bates - OCA OCP Java SE 7 Programmer I & II Study Guide
