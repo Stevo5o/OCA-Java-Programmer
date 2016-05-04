@@ -9,11 +9,11 @@
 | Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        | FizzBuzz
 | enum           | Inheritance     | Boolean         | super               | Local variable      | Swap Variables
 | for in         | Ploymorphism    | Method overload | static              | Stack Heap          |
-| Abstract class |overload override| Scope			 | Superclass          | Strings 			 |
-| JFrame		 | Constructor	   | Arrays		     | Subclass            | Arrays				 |
-| import static	 | TreeSet		   |Pass Vars Methods| this				   | ArrayLists 		 |
-| Interface		 |Boolean		   | Shadowing vars  | Operators		   |
-| Public 		 |Postfix		   |Garbage Collection| instanceof		   |
+| Abstract class |overload override| Scope			 | Superclass          | Strings  			 |
+| JFrame		 | Constructor	   | Arrays		     | Subclass            | StringBuilder		 |
+| import static	 | TreeSet		   |Pass Vars Methods| this				   | chained methods	 |
+| Interface		 |Boolean		   | Shadowing vars  | Operators		   | Arrays				 |
+| Public 		 |Postfix		   |Garbage Collection| instanceof		   | ArrayLists 		 |
 | Protected		 |Prefix		   | Literals 		 | Increment Decrement |
 | Private		 |ArrayList	Array  | Assignments	 | ternary
 | String Object	 |StringBuilder	   | Variables	     |
@@ -246,6 +246,10 @@ switch(variable / expression)
 				break;
 }
 ```
+
+chained methods
+
+result = method1().method2().method3();
 
 ## Resources
 

@@ -64,6 +64,10 @@ class TestString
 		System.out.println(a);
 		System.out.println(a.trim() + "t");
 		
+		/// chained methods
+		String q = "abc";
+		String r = q.concat("def").toUpperCase().replace('C', 'x');
+		System.out.println("r = " + r);	
 	}
 }
 /*
@@ -93,4 +97,5 @@ String m to String: ExiT
 EXIT upper case: EXIT
   hi  
 hit
+r = ABxDEF
 */
