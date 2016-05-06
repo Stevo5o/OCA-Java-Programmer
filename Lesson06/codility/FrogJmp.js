@@ -29,16 +29,20 @@ function solution4(x, y, d) {
         return Math.floor((y - x) / d + 1);
     }
 }
+function solution5(x, y, d) {
+    return Math.floor((y - x + d - 1) / d); 
+}
     
 console.log("Math.ceil: froggy jumps:" + solution1(x, y, d));
 console.log("If else with Math.floor: froggy jumps:" + solution2(x, y, d));
 console.log("If else with parseInt: froggy jumps:" + solution3(x, y, d));
 console.log("If else with Math.floor w/out var distance: froggy jumps:" + solution4(x, y, d));
+console.log("Elegant: froggy jumps:" + solution5(x, y, d));
 
 /*
 Math.ceil: froggy jumps:3 - solution1 codility score 100%
 If else with Math.floor: froggy jumps:3 - solution2 codility score 100%
 If else with parseInt: froggy jumps:3 - solution3 codility score 100%
-If else with (parseInt): froggy jumps:3 - solution4 codility score 100%
 If else with Math.floor w/out var distance: froggy jumps:3 - solution4 codility score 100%
+Elegant: froggy jumps:3 - solution5 codility score 100%
 */
