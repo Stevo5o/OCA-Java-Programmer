@@ -2,15 +2,14 @@ var a = [1, 2, 3, 5];
 
 function solution1(a) {
 	var length = a.length;
-	var sum = ((a.length + 1) / 2) * (a.length + 2);
+	var sum = ((length + 1) / 2) * (a.length + 2);
 	var sumMinusMissing = 0;
-	for(var i = 0; i < a.length; i++) {
+	for(var i = 0; i < length; i++) {
 		sumMinusMissing += a[i];
 	}	
 	return sum - sumMinusMissing;
 }
 function solution2(a) {
-
 	var sum = ((a.length + 1) / 2) * (a.length + 2);
 	var sumMinusMissing = 0;	
 	a.forEach(function(element) {
@@ -19,5 +18,8 @@ function solution2(a) {
 	
 	return sum - sumMinusMissing;
 }
-console.log("Missing number is " + solution1(a));
-console.log("Missing number is " + solution2(a));
+console.log("Using for loop. The Missing number is " + solution1(a));
+console.log("Using forEach. Missing number is " + solution2(a));
+
+// Using for loop. The Missing number is 4
+// Using forEach. Missing number is 4
