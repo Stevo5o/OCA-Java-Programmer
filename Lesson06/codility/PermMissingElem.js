@@ -19,8 +19,17 @@ function solution2(a) {
 	
 	return sum - sumMinusMissing;
 }
+function solution3(a) {
+	var xor_sum = 0;
+	for(var index = 0, len = a.length; index < len; ++index) {
+		xor_sum = xor_sum ^ a[index] ^ (index + 1);
+	}
+	return xor_sum ^ (a.length + 1);
+}
 console.log("Using for loop. The Missing number is " + solution1(a));
 console.log("Using forEach. Missing number is " + solution2(a));
+console.log("xor for loop. Missing number is " + solution3(a));
 
-// Using for loop. The Missing number is 4
-// Using forEach. Missing number is 4
+// Using for loop. The Missing number is 4 - codility 100%
+// Using forEach. Missing number is 4 - codility 100%
+// xor for loop. Missing number is 4 - codility 100%

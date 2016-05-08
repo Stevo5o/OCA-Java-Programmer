@@ -25,14 +25,8 @@
  */
  class PermMissingElem
  {
-	 public static void main(String [] args)
-	 {
-		int[] a = {1, 2, 3, 5};
-		System.out.println("Solution 1 Missing number: " + new PermMissingElem().solution1(a));
-		System.out.println("Solution 2 Missing number: " + new PermMissingElem().solution1(a));
-	 }
-	 public int solution1(int[] a)
-	 {		 
+	public int solution1(int[] a)
+	{		 
 		long n = a.length + 1;
 		long total = (n * (n + 1)) / 2;
 		
@@ -54,6 +48,23 @@
 		 double res = 0.5 * (a.length + 1) * (a.length + 2) - sum;
 		 return (int)res;
 	 }
+	 public int solution3(int[] a)
+	 {
+		int xor_sum = 0;
+		for(int index = 0; index < a.length; index++)
+		{
+			xor_sum = xor_sum ^ a[index] ^ (index + 1);
+		}
+		return xor_sum ^ (a.length + 1);
+	 }
+	 public static void main(String [] args)
+	 {
+		int[] a = {1, 2, 3, 5};
+		System.out.println("Solution 1 Missing number: " + new PermMissingElem().solution1(a));
+		System.out.println("Solution 2 Missing number: " + new PermMissingElem().solution2(a));
+		System.out.println("Solution 3 Missing number: " + new PermMissingElem().solution3(a));
+	 }
  }
-//  Solution 1 Missing number: 4 - codility 100%
-//  Solution 2 Missing number: 4 - codility 100%
+// Solution 1 Missing number: 4 - codility 100%
+// Solution 2 Missing number: 4 - codility 100%
+// Solution 3 Missing number: 4 - codility 100%
