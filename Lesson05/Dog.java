@@ -3,21 +3,26 @@ class Collar
 	
 }
 
-class dog 
+class Dog 
 {
 	Collar c; // instance var
 	String name; // instance var 
 	
+	public Dog(String name)
+	{
+		this.name = name;
+	}
+	
 	public static void main(String [] args)
 	{
 		Dog d; // local var: d
-		d = new Dog();
+		d = new Dog("Lassie");
 		d.go(d);
 	}
 	
 	void go(Dog dog) // local var: dog
 	{
-		c = new Collar;
+		c = new Collar();
 		dog.setName("Tyson");
 	}
 	
@@ -25,6 +30,12 @@ class dog
 	{
 		name = dogName;
 		// do more stuff
+	}
+	
+	@Override
+	public String toString()
+	{
+		return name;	
 	}
 }
 
