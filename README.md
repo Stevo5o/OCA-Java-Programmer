@@ -8,7 +8,7 @@
 | Compiling      | Switch, String  | Pass by value   | Q & A  enum String  | Immutable           | Fibonacci 				 |
 | Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        | FizzBuzz
 | enum           | Inheritance     | Boolean         | super               | Local variable      | Swap Variables
-| for in         | Ploymorphism    | Method overload | static              | Stack Heap          |
+| for in         | Ploymorphism    | Method overload | static              | Stack Heap          | Codility
 | Abstract class |overload override| Scope			 | Superclass          | Strings  			 |
 | JFrame		 | Constructor	   | Arrays		     | Subclass            | StringBuilder		 |
 | import static	 | TreeSet		   |Pass Vars Methods| this				   | chained methods	 |
@@ -24,7 +24,7 @@
 
 ```
 // public Access Modifier
-// class keyword used for specifing a class
+// class keyword used for specifying a class
 // name of class Cat
 public class Cat
 { // open curly brace of the class Cat
@@ -189,13 +189,13 @@ Default Values for Primitives and Reference Types
 Variable types
 ---------------
 1. Primitive data type -> int val = 90, val : 90 (byte, short, int, long) (float, double) (char) (boolean)
-2. Obect reference variables -> Student st = new Student();
+2. Object reference variables -> Student st = new Student();
 
-JVM starts it's devided into 2 sections Heap and Stack
+JVM starts it's divided into 2 sections Heap and Stack
 
 HEAP
 ----
-Obects are always created in heap
+Objects are always created in heap
 1000x: StudentObj, val : 90 - instance variable
 
 class_data
