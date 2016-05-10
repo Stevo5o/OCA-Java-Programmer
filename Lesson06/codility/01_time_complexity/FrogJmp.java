@@ -26,17 +26,8 @@
  */
 class FrogJmp
 {
-	static int x = 10, y = 85, d = 30; 
-	
-	public static void main(String [] args)
-	{
-		System.out.println("If else froggy jumps: " + new FrogJmp().calcDistanceIf(x, y, d));
-		System.out.println("Ternary froggy jumps: " + new FrogJmp().calcDistanceTer(x, y, d));						
-		System.out.println("Solution 1 froggy jumps: " + new FrogJmp().solution(x, y, d));		
-		System.out.println("Solution 2 froggy jumps: " + new FrogJmp().solution2(x, y, d));		
-		System.out.println("Solution 3 froggy jumps: " + new FrogJmp().solution3(x, y, d));		
-		System.out.println("Solution 4 froggy jumps: " + new FrogJmp().solution4(x, y, d));		
-	}	
+	static int x = 10, y = 85, d = 30; 	
+		
 	int calcDistanceIf(int x, int y, int d)
 	{
 		if((y - x) % d == 0)
@@ -75,6 +66,15 @@ class FrogJmp
 	public int solution4(int x, int y, int d)
 	{
 		return (y - x + d - 1) / d; 
+	}
+	public static void main(String [] args)
+	{
+		System.out.println("If else froggy jumps: " + new FrogJmp().calcDistanceIf(x, y, d));
+		System.out.println("Ternary froggy jumps: " + new FrogJmp().calcDistanceTer(x, y, d));						
+		System.out.println("Solution 1 froggy jumps: " + new FrogJmp().solution(x, y, d));		
+		System.out.println("Solution 2 froggy jumps: " + new FrogJmp().solution2(x, y, d));		
+		System.out.println("Solution 3 froggy jumps: " + new FrogJmp().solution3(x, y, d));		
+		System.out.println("Solution 4 froggy jumps: " + new FrogJmp().solution4(x, y, d));		
 	}
 }
 /*

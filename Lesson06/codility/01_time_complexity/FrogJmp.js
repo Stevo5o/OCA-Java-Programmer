@@ -1,3 +1,4 @@
+// Count minimal number of jumps from position X to Y.
 // Node v4.4.3
 var x = 10, y = 85, d = 30;
 function solution1(x, y, d) {
