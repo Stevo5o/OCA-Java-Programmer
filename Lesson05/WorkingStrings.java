@@ -1,9 +1,9 @@
 // used to test methods of the String class
-
 class WorkingStrings
 {
     private static String charName1 = "Edward Richtofen",
-                          charName2 = "Nikolai",
+                          charName2FN = "Nikolai",
+                          charName2FulN = charName2FN + " Belinski",
                           charName3 = "Takeo Masaki",
                           charName4 = "\"Tank\" Dempsey",
                           testName = "Edward Richtofen",
@@ -20,13 +20,13 @@ class WorkingStrings
                 System.out.println("\"Ahahahahaha! Ja! Feed, my dragon! FEED!\" " + charName.substring( spaceIndex+1));
                 break;
            case "Nikolai":           
-                System.out.println("\"I am not sure which Richtofen is most dangerous.\" " + charName);
+                System.out.println("\"I am not sure which Richtofen is most dangerous.\" " + charName2FN);
                 break;
            case "Takeo Masaki":           
-                System.out.println("\"It is unwise to speak lightly of demons Dempsey.\" " + charName);
+                System.out.println("\"It is unwise to speak lightly of demons Dempsey.\" " + charName.substring(0, spaceIndex));
                 break;
-           case "Tank":           
-                System.out.println("\"Richtofen says he's been here before. Was that crazy evil Richtofen or this new man-with-a-plan Richtofen? \" " + charName);
+           case "\"Tank\" Dempsey":           
+                System.out.println("\"Was that crazy evil Richtofen or this new man-with-a-plan Richtofen?\" " + charName.substring(spaceIndex+1));
                 break;
            default:
                   System.out.println("I\'m down " + charName);
@@ -34,16 +34,14 @@ class WorkingStrings
     }   
                     
     public static void main(String [] args)
-    {   
-        charName2 = charName2 + " Belinski";
-              
+    {         
         WorkingStrings.speak(charName1);     
-        WorkingStrings.speak(charName2);   
+        WorkingStrings.speak(charName2FN);   
         WorkingStrings.speak(charName3);   
         WorkingStrings.speak(charName4);
         
-        String totalchar = "\nFour characters: \n" + charName1 + ", " + charName2 + ", " + charName3 + ", " + charName4;
-        System.out.println("Second fav charactar: " + charName2 + ". " + totalchar);
+        String totalchar = "\nFour characters: \n" + charName1 + ", " + charName2FulN + ", " + charName3 + ", " + charName4;
+        System.out.println("Second fav charactar: " + charName2FulN + ". " + totalchar);
         
         char eIndex = charName1.charAt(14);
         int letterIndex = charName1.toLowerCase().lastIndexOf("e");
@@ -90,6 +88,14 @@ class WorkingStrings
     }
 }
 /*
+"Ahahahahaha! Ja! Feed, my dragon! FEED!" Richtofen
+"I am not sure which Richtofen is most dangerous." Nikolai
+"It is unwise to speak lightly of demons Dempsey." Takeo
+"Was that crazy evil Richtofen or this new man-with-a-plan Richtofen?" Dempsey
+Second fav charactar: Nikolai Belinski.
+Four characters:
+Edward Richtofen, Nikolai Belinski, Takeo Masaki, "Tank" Dempsey
+Found lower case e at: 14
 Edward
 Richtofen
 First Letter: E
