@@ -6,16 +6,16 @@
 | :------------  | :------------   | :-------------- | :------------------ | :------------       | :------------------------ |
 | Packages       | Basic if        | Debugging       | Pass values methods | Encapsulation       | Flow Control & Exceptions |
 | Compiling      | Switch, String  | Pass by value   | Q & A  enum String  | Immutable           | Fibonacci 				 |
-| Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        | FizzBuzz
-| enum           | Inheritance     | Boolean         | super               | Local variable      | Swap Variables
-| for in         | Ploymorphism    | Method overload | static              | Stack Heap          | Codility
-| Abstract class |overload override| Scope			 | Superclass          | Strings  			 |
+| Interpret code | Encapsulation   | Recursion       | Override            | Polymorphism        | FizzBuzz 				 |
+| enum           | Inheritance     | Boolean         | super               | Local variable      | Swap Variables   		 |
+| for in         | Ploymorphism    | Method overload | static              | Stack Heap          | Codility 				 |
+| Abstract class |overload override| Scope			 | Superclass          | Strings  			 | 
 | JFrame		 | Constructor	   | Arrays		     | Subclass            | StringBuilder		 |
 | import static	 | TreeSet		   |Pass Vars Methods| this				   | chained methods	 |
-| Interface		 |Boolean		   | Shadowing vars  | Operators		   | Arrays				 |
-| Public 		 |Postfix		   |Garbage Collection| instanceof		   | ArrayLists 		 |
-| Protected		 |Prefix		   | Literals 		 | Increment Decrement |
-| Private		 |ArrayList	Array  | Assignments	 | ternary
+| Interface		 |Boolean		   | Shadowing vars  | Operators		   | String	methods		 |
+| Public 		 |Postfix		   |Garbage Collection| instanceof		   | Arrays				 |
+| Protected		 |Prefix		   | Literals 		 | Increment Decrement | ArrayList 			 |
+| Private		 |ArrayList	Array  | Assignments	 | ternary     		   |
 | String Object	 |StringBuilder	   | Variables	     |
 | toString()	 | static blocks   | Stack Heap  	 |
 
