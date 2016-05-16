@@ -29,14 +29,6 @@ class WorkArrays
         charQuotes[1][3] = "I do not understand this American slang, but it had better not be what I think it is.";     
         charQuotes[1][4] = "Crazy you may be, but Richtofen's knowledge cannot be denied. Whether or not he can be trusted is a different matter. Richtofen has told us little of his comrade Dr. Maxis, I do not like to put my trust in a man I have not met.";         
     } 
-      
-    void WorkArrays(String[] quotes)
-    {
-        for(String q: quotes)
-        {
-            System.out.println(q);
-        }
-    }   
  
     public static void main(String [] args)
     {
