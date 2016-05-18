@@ -1,3 +1,17 @@
+class Sabaru extends Car
+{
+	Sabaru(String model)
+	{
+		super(model);
+	}	
+}
+class Ferrari extends Car
+{
+	Ferrari(String model)
+	{
+		super(model);
+	}
+}
 class Car
 {
 	String model;
@@ -15,16 +29,12 @@ class Car
 	@Override
 	public String toString()
 	{	
-		return "Vehicle model: " + getVehicleModel();
+		return "Car model: " + getCarModel();
 	}
-}
-class Sabaru extends Car{}
-class Ferrari extends Car{}
-class Vehicle
-{			
+	
 	public static void main(String [] args)
 	{
-		Car[] myCars = {new Sabaru(), new Ferrari()};
+		Car[] myCars = {new Sabaru("a"), new Ferrari("t")};
 		System.out.println(myCars.toString());
 	}
 }
