@@ -7,7 +7,7 @@ class Conduct
 	{		
 		List<Playable> orchestra = new ArrayList<Playable>();
 		
-		orchestra.add(new Violin("Violin", 2.34f));
+		orchestra.add(new Violin("Violin", "Strings", 2.34f));
 		orchestra.add(new Clarinet("Clarinet", "Woodwind", 1.45f));
 		orchestra.add(new FrenchHorn("French Horn", "Brass", 5.43f));
 		
