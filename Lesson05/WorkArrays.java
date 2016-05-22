@@ -1,3 +1,7 @@
+/*
+Instantiating a Two-Dimensional Array
+array_identifier = new type [number_of_arrays] [length]
+*/
 import java.util.Arrays;
 
 class WorkArrays
@@ -43,6 +47,46 @@ class WorkArrays
             System.out.println(q);
         }  
         
-        System.out.println(Arrays.deepToString(charQuotes)); 
+        // System.out.println(Arrays.deepToString(charQuotes));
+        
+        String game = "COD Zombies";
+        String message = game + " has four main characters";
+        String[] characters = {"Richtofen","Dempsey","Nikolai","Takeo"};
+        message = game + " choose from " + characters.length + " characters.";
+        System.out.println(message);
+        System.out.println("Your " + game + " character is " + characters[1]);
+        
+        // System.out.println("args[0] is " + args[0]); 
+        // System.out.println("args[1] is " + args[1]);
+        
+        // System.out.println("Total is: " + (args[0] + args[1]));
+        // int arg1 = Integer.parseInt(args[0]); 
+        // int arg2 = Integer.parseInt(args[1]); 
+        // System.out.println("Total is: " + (arg1 + arg2));
+        
+        String name;
+        int age;
+        
+        if(args.length < 2)
+        {
+            System.out.println("Invalid arg list. you need 2 arguments");
+        }
+        else
+        {
+            name = args[0];
+            age = Integer.parseInt(args[1]);
+            System.out.println("Name: " + name + "Age: " + age);
+        }
     }
 }
+/*
+COD Zombies choose from 4 characters.
+Your COD Zombies character is Dempsey
+args[0] is Ric
+args[1] is Takeo
+args[0] is 2
+args[1] is 3
+Total is: 23
+Total is: 5
+Invalid arg list. you need 2 arguments
+*/

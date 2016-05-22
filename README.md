@@ -251,6 +251,25 @@ chained methods
 
 result = method1().method2().method3();
 
+
+Instantiating a Two-Dimensional Array
+```
+array_identifier = new type [number_of_arrays] [length];
+int[][] yearlySales = new int[5][4];
+yearlySales[0][0] = 1000;
+yearlySales[0][1] = 1500;
+yearlySales[0][2] = 1800;
+yearlySales[1][0] = 1000;
+yearlySales[3][3] = 2000;
+```
+|		   |Quarter 1|Quarter 2|Quarter 3|Quarter 4|
+|:-------- |:------- |:------- |:------- |:------- |
+|Year 1    | 1000	 |	1500   | 1800    |         |
+|Year 2    | 1000    |		   |         |         |
+|Year 3    |		 |		   |         |         |
+|Year 4    |		 |		   |         |  2000   |
+|Year 5    |		 |		   |         |         |
+
 ## Resources
 
 ## Linux
