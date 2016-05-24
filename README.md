@@ -1,5 +1,7 @@
 # OCA-Java-Programmer
 
+[![forthebadge](http://forthebadge.com/badges/uses-git.svg)](http://forthebadge.com)
+
 ![](http://education.oracle.com/education/ou_rd14/image/oracleuniversity_logo.png)
 
 | Lesson 01      | Lesson 02       | Lesson 03       | Lesson 04           | Lesson 05           | Lesson06
