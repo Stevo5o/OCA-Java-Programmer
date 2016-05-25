@@ -5,9 +5,9 @@ class Sabaru extends Car
 		super(model);
 	}	
 }
-class Ferrari extends Car
+class Lamborghini extends Car
 {
-	Ferrari(String model)
+	Lamborghini(String model)
 	{
 		super(model);
 	}
@@ -34,7 +34,7 @@ class Car
 	
 	public static void main(String [] args)
 	{
-		Car[] myCars = {new Sabaru("a"), new Ferrari("t")};
+		Car[] myCars = {new Sabaru("a"), new Lamborghini("t")};
 		System.out.println(myCars.toString());
 	}
 }
