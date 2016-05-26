@@ -8,6 +8,7 @@ class Cities
 		c.add("Oslo"); 
 		c.add("Paris"); 
 		c.add("Rome"); 
+		c.add("Rome"); 
 		int index = c.indexOf("Paris");
 		System.out.println(c + " " + index);
 		c.add(index, "London");
@@ -15,6 +16,6 @@ class Cities
 	}
 }
 /*
-[Oslo, Paris, Rome] 1
-[Oslo, London, Paris, Rome]
+[Oslo, Paris, Rome, Rome] 1
+[Oslo, London, Paris, Rome, Rome]
 */
