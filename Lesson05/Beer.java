@@ -1,4 +1,7 @@
 class Beer
 {
-	
+	void drink()
+	{
+		
+	}
 }
