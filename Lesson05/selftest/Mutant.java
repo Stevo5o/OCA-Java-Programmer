@@ -9,3 +9,4 @@ class Mutant
 		System.out.println("." + sb + ". ." + s + ".");
 	}
 }
+// .cbad. .abc.
